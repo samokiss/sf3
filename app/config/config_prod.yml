@@ -19,3 +19,16 @@ monolog:
             level: debug
         console:
             type:  console
+
+parameters:
+    database_host: 127.0.0.1
+    database_port: ~
+    database_name: formation
+    database_user: root
+    database_password: VJ8ieSnKeRQL
+    mailer_transport:  smtp
+    mailer_auth_mode:  login
+    mailer_host:       smtp.exprimetafoi.com
+    mailer_port:       587
+    mailer_user:       contact@exprimetafoi.com
+    mailer_password:   devinez^^
