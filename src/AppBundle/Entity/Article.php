@@ -2,6 +2,7 @@
 
 namespace AppBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -41,6 +42,23 @@ class Article
      * @ORM\Column(name="date", type="datetime")
      */
     private $date;
+
+    /**
+     * @var Tag
+     *
+     * @ORM\ManyToMany(targetEntity="AppBundle\Entity\Tag", cascade={"persist", "remove"})
+     * @ORM\JoinTable(name="article_tag",
+     *      joinColumns={@ORM\JoinColumn(name="tag_id", referencedColumnName="id")},
+     *      inverseJoinColumns={@ORM\JoinColumn(name="article_id", referencedColumnName="id")}
+     *      )
+     */
+    private $tags;
+
+
+    public function __construct()
+    {
+        $this->tags = new ArrayCollection();
+    }
 
 
     /**
@@ -124,5 +142,34 @@ class Article
     {
         return $this->date;
     }
-}
 
+    public function getTags()
+    {
+        return $this->tags;
+    }
+
+
+    /**
+     * Add tag
+     *
+     * @param \AppBundle\Entity\Tag $tag
+     *
+     * @return Article
+     */
+    public function addTag(\AppBundle\Entity\Tag $tag)
+    {
+        $this->tags[] = $tag;
+
+        return $this;
+    }
+
+    /**
+     * Remove tag
+     *
+     * @param \AppBundle\Entity\Tag $tag
+     */
+    public function removeTag(\AppBundle\Entity\Tag $tag)
+    {
+        $this->tags->removeElement($tag);
+    }
+}

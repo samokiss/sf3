@@ -3,10 +3,12 @@
 namespace AppBundle\Controller;
 
 use AppBundle\Entity\Article;
+use AppBundle\Entity\Tag;
 use AppBundle\Form\ArticleType;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 
 class DefaultController extends Controller
 {
@@ -20,21 +22,10 @@ class DefaultController extends Controller
             $article = new Article();
             $article->setDate(new \DateTime());
         }
-        $em = $this->getDoctrine()->getEntityManager();
 
         $form = $this->createForm(ArticleType::class, $article);
 
         $articles = $this->getDoctrine()->getRepository('AppBundle:Article')->findAll();
-
-        $form->handleRequest($request);
-
-        if ($form->isValid()) {
-
-            $em->persist($article);
-            $em->flush();
-
-            return $this->redirectToRoute('homepage');
-        }
 
         return $this->render(
             'default/index.html.twig',
@@ -45,4 +36,36 @@ class DefaultController extends Controller
         );
     }
 
+    /**
+     * @Route("/ajax/add", name="create_edit_article", options={"expose"=true})
+     */
+    public function createOrEditAction(Request $request)
+    {
+        $article = $this->getDoctrine()->getRepository('AppBundle:Article')->findOneByTitle($request->get('title'));
+
+        if (is_null($article)) {
+            $article = new Article();
+            $article->setTitle($request->get('title'));
+            $article->setContent($request->get('content'));
+            $article->setDate(new \DateTime());
+        }
+
+        die(dump($article));
+
+        if(null !== $request->get('tags')) {
+            foreach ($request->get('tags') as $key => $tag) {
+                $tagGetted = $this->getDoctrine()->getRepository('AppBundle:Tag')->findOneByTitle($tag['tag']);
+                if(is_null($tagGetted)) {
+                    $tagGetted = new Tag();
+                    $tagGetted->setTitle($tag['tag']);
+                }
+                $article->addTag($tagGetted);
+            }
+        }
+
+        $this->get('article.manager')->save($article);
+
+        return new Response('enregistrement ok!');
+
+    }
 }

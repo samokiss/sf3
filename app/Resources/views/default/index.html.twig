@@ -10,22 +10,60 @@
 
 {% block body %}
     <div class="container">
-        {{ form_start(form) }}
+        {{ form_start(form, {'attr': {'id': 'form_article'}}) }}
         {{ form_widget(form.title) }}
         {{ form_widget(form.content) }}
+        <div class="chips chips-initial"></div>
         {{ form_end(form) }}
         {% for article in articles %}
             <table>
                 <tr>
-                    <td><h2 id="{{ article.title }}">{{ article.title }}</h2></td>
+                    <td>
+                        <h2 class="articleId" id="{{ article.title }}">{{ article.title }}</h2>
+                    </td>
                     <td><a href="{{ path("edit_article", {id : article.id}) }}">modifier</a></td>
                 <tr>
             </table>
 
-            {{ article.content | raw }}
+            <div>
+                {{ article.content | raw }}
+                {% for tag in article.tags %}
+                    <div class="chip"><a
+                                href="#">#{{ tag.title }}</a>
+                    </div>
+                {% endfor %}
+            </div>
+
         {% endfor %}
     </div>
 {% endblock %}
 
 {% block javascripts %}
+    <script>
+
+        $('.chips').material_chip();
+
+        $("#form_article").submit(function (e) {
+            e.preventDefault();
+
+
+            tags = $('.chips-initial').material_chip('data');
+            title = $('#appbundle_article_title').val();
+            content = $('#appbundle_article_content').val();
+            console.log(content);
+
+            $.ajax({
+                url: Routing.generate('create_edit_article', {
+                    tags: tags,
+                    title: title,
+                    content: content
+                }),
+                type: 'GET',
+                success: function (data) {
+//                    location.reload();
+                }
+            });
+        });
+
+    </script>
 {% endblock %}
