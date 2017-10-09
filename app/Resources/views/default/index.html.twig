@@ -37,53 +37,5 @@
 
         $('.collapsible').collapsible();
 
-        tags = $('.chips').attr('data-tag');
-
-        injectTag(tags);
-
-        function injectTag(tags) {
-            $.ajax({
-                url: Routing.generate('get_tag'),
-                type: 'GET',
-                success: function (json) {
-                    $('.chips').material_chip();
-                    $('.chips-initial').material_chip({
-                        data: JSON.parse(tags),
-                        autocompleteData: JSON.parse(json),
-                        placeholder: "+Tag",
-                        secondaryPlaceholder: 'Ajouter un tag'
-                    });
-                    tagInitials = $('.chips-initial').material_chip('data');
-                }
-            });
-        }
-
-
-        $("#form_article").submit(function (e) {
-            e.preventDefault();
-
-            tags = $('.chips-initial').material_chip('data');
-            deletedTags = $(tagInitials).not(tags).get();
-
-            title = $('#appbundle_article_title').val();
-            content = CKEDITOR.instances.appbundle_article_content.getData();
-
-            console.log(title);
-            console.log(content);
-
-            $.ajax({
-                url: Routing.generate('create_edit_article', {
-                    tags: tags,
-                    deletedTags: deletedTags,
-                    title: title,
-                    content: content
-                }),
-                type: 'POST',
-                success: function (data) {
-                    location.reload();
-                }
-            });
-        });
-
     </script>
 {% endblock %}

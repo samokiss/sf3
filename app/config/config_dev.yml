@@ -23,6 +23,6 @@ monolog:
             channels: [!event, !doctrine]
 
 parameters:
-    database_host: 172.19.0.2
+    database_host: 172.19.0.3
     database_user: root
     database_password: root

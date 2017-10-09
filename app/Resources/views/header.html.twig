@@ -1,23 +1,51 @@
-<ul id="nav-mobile" class="side-nav fixed">
-    <ul class="collapsible" data-collapsible="accordion">
-        {% for tag, articleList in articleTags %}
-            <li>
-                <div class="collapsible-header">{{ tag }}</div>
-                {% for article in articleList %}
-                    <div class="collapsible-body">
-                        <a class="margin-title" href="#{{ article.title }}">{{ article.title }}</a>
-                    </div>
+<nav id="navbar-custom">
+    <div class="nav-wrapper">
+        <a href="#" data-activates="mobile-demo" class="button-collapse mobile-button"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="side-nav fixed">
+            <ul class="collapsible" data-collapsible="accordion">
+                {% for tag, articleList in articleTags %}
+                    <li>
+                        <div class="collapsible-header menu-custom">{{ tag }}</div>
+                        {% for article in articleList %}
+                            <div class="collapsible-body">
+                                <a class="margin-title" href="#{{ article.title }}">{{ article.title }}</a>
+                            </div>
+                        {% endfor %}
+                    </li>
                 {% endfor %}
-            </li>
-        {% endfor %}
-        {% if app.request.attributes.get('_route') == 'tagged_article'
-            or app.request.attributes.get('_route') == 'add_article'
-            or app.request.attributes.get('_route') == 'edit_article'%}
-            <li><a class="btn-large" href="{{ path('homepage') }}">Voir toutes les notes</a></li>
-        {% endif %}
+                {% if app.request.attributes.get('_route') == 'tagged_article'
+                or app.request.attributes.get('_route') == 'add_article'
+                or app.request.attributes.get('_route') == 'edit_article' %}
+                    <li><a class="btn-large" href="{{ path('homepage') }}">Voir toutes les notes</a></li>
+                {% endif %}
 
-        {% if app.request.attributes.get('_route') == 'homepage' %}
-            <li><a class="btn-large grey" href="{{ path('add_article') }}">Ajouter une note</a></li>
-        {% endif %}
-    </ul>
-</ul>
+                {% if app.request.attributes.get('_route') == 'homepage' %}
+                    <li><a class="btn-large grey" href="{{ path('add_article') }}">Ajouter une note</a></li>
+                {% endif %}
+            </ul>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <ul class="collapsible" data-collapsible="accordion">
+                {% for tag, articleList in articleTags %}
+                    <li>
+                        <div class="collapsible-header menu-custom">{{ tag }}</div>
+                        {% for article in articleList %}
+                            <div class="collapsible-body">
+                                <a class="margin-title" href="#{{ article.title }}">{{ article.title }}</a>
+                            </div>
+                        {% endfor %}
+                    </li>
+                {% endfor %}
+                {% if app.request.attributes.get('_route') == 'tagged_article'
+                or app.request.attributes.get('_route') == 'add_article'
+                or app.request.attributes.get('_route') == 'edit_article' %}
+                    <li><a class="btn-large" href="{{ path('homepage') }}">Voir toutes les notes</a></li>
+                {% endif %}
+
+                {% if app.request.attributes.get('_route') == 'homepage' %}
+                    <li><a class="btn-large grey" href="{{ path('add_article') }}">Ajouter une note</a></li>
+                {% endif %}
+            </ul>
+        </ul>
+    </div>
+</nav>

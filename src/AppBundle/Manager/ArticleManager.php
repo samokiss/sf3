@@ -24,7 +24,7 @@ class ArticleManager extends BaseManager
      * @param Request $request
      * @param Article $article
      */
-    public function getArticle(Request $request, Article $article)
+    public function getArticle(Request $request, Article $article = null)
     {
         $content = str_replace('"', '', $request->get('content'));
         

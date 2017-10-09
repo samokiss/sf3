@@ -10,4 +10,26 @@ header, main, footer {
 
 .margin-title{
     margin-left: 30px;
+    color : darkslategrey;
+}
+
+#navbar-custom {
+    color: #fff;
+    width: 100%;
+    background-color: white;
+    height: 0px;
+}
+
+.mobile-button {
+    color: black;
+}
+
+.menu-custom {
+    color : black;
+}
+
+@media only screen and (max-width : 600px) {
+    header, main, footer {
+        padding-left: 0;
+    }
 }

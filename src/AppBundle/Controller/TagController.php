@@ -2,16 +2,14 @@
 
 namespace AppBundle\Controller;
 
-use AppBundle\Entity\Article;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class TagController extends Controller
 {
     /**
-     * @Route("/tag/list", name="get_tag", options={"expose"=true})
+     * @Route("/taglist", name="get_tag", options={"expose"=true})
      */
     public function getTagAction()
     {

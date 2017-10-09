@@ -13,7 +13,7 @@ use Symfony\Component\HttpFoundation\Response;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/", name="homepage")
+     * @Route("/", name="homepage", options={"expose"=true})
      */
     public function indexAction(Article $article = null)
     {
@@ -26,6 +26,7 @@ class DefaultController extends Controller
                 $articleTags[$tag->getTitle()] = $articles;
             }
         }
+
 
         return $this->render(
             'default/index.html.twig',
@@ -69,6 +70,7 @@ class DefaultController extends Controller
             [
                 'form' => $form->createView(),
                 'articleTags' => $articleTags,
+                'article' => $article,
                 'articleTag' => json_encode($data),
             ]
         );
@@ -83,7 +85,6 @@ class DefaultController extends Controller
 
         $article = new Article();
         $article->setDate(new \DateTime());
-
 
         $articleTags[$tag->getTitle()] = $this->getDoctrine()->getRepository('AppBundle:Article')->getArticleByTag($tag);
 
@@ -101,10 +102,10 @@ class DefaultController extends Controller
      */
     public function createOrEditAction(Request $request)
     {
-        $article = $this->getDoctrine()->getRepository('AppBundle:Article')->findOneByTitle($request->get('title'));
+        $article = $this->getDoctrine()->getRepository('AppBundle:Article')->findOneById($request->get('id'));
 
         $article = $this->get('article.manager')->getArticle($request, $article);
-
+        
         $this->get('tag.manager')->addTag($request, $article);
         $this->get('tag.manager')->removeTag($request, $article);
         $this->get('article.manager')->save($article);

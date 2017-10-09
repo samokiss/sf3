@@ -25,6 +25,12 @@ class TagManager extends BaseManager
      */
     public function addTag(Request $request, Article $article)
     {
+        $tagGlobal = $this->em->getRepository($this->className)->findOneByTitle('Global');
+
+        if (!$article->getTags()->contains($tagGlobal)) {
+            $article->addTag($tagGlobal);
+        }
+        
         if (null !== $request->get('tags')) {
             foreach ($request->get('tags') as $key => $tag) {
                 $tagToAdd = $this->em->getRepository($this->className)->findOneByTitle($tag['tag']);

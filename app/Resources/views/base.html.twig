@@ -2,10 +2,12 @@
 <html>
     <head>
         <meta charset="UTF-8" />
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <meta name="viewport" content="user-scalable=no, width=device-width" />
+        <title>{% block title %}Samuel Note{% endblock %}</title>
         {% block stylesheets %}
         {% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="{{ asset('css/materialize.min.css') }}">
         <link href="{{ asset('css/default.css') }}" rel="stylesheet">
         <link href="{{ asset('ckeditor/plugins/codesnippet/lib/highlight/styles/monokai.css') }}" rel="stylesheet">
@@ -27,6 +29,9 @@
             {% block body %}{% endblock %}
         </main>
 
+        <script>
+            $(".button-collapse").sideNav();
+        </script>
         {% block javascripts %}
         {% endblock %}
     </body>
