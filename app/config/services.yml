@@ -7,3 +7,6 @@ services:
     article.manager:
         class: AppBundle\Manager\ArticleManager
         arguments: ["@doctrine.orm.entity_manager", "AppBundle:Article"]
+    tag.manager:
+        class: AppBundle\Manager\TagManager
+        arguments: ["@doctrine.orm.entity_manager", "AppBundle:Tag"]

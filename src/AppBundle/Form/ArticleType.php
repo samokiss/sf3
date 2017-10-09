@@ -19,10 +19,6 @@ class ArticleType extends AbstractType
     {
         $builder
             ->add('title')
-//            ->add('tags', CollectionType::class, array(
-//                'entry_type' => TagType::class,
-//                'allow_add'    => true,
-//            ))
             ->add('content', CKEditorType::class)
             ->add('Enregistrer', SubmitType::class);
     }

@@ -15,91 +15,45 @@ use Symfony\Component\HttpFoundation\Request;
 
 class TagManager extends BaseManager
 {
-    private $tagUserVerseManager;
-
     public function __construct(EntityManager $em, $className)
     {
         parent::__construct($em, $className);
     }
 
-    public function getArticleTag(Article $article)
+    /**
+     * @param Request $request
+     */
+    public function addTag(Request $request, Article $article)
     {
-        $tags = $this->em->getRepository($this->className)->findBy([
-            "article" => $article,
-        ]);
-        return $tags;
+        if (null !== $request->get('tags')) {
+            foreach ($request->get('tags') as $key => $tag) {
+                $tagToAdd = $this->em->getRepository($this->className)->findOneByTitle($tag['tag']);
+                if (is_null($tagToAdd)) {
+                    $tagToAdd = new Tag();
+                    $tagToAdd->setTitle($tag['tag']);
+                }
+                if (!$article->getTags()->contains($tagToAdd)) {
+                    $article->addTag($tagToAdd);
+                }
+            }
+        }
     }
 
     /**
-     * @param $verses
      * @param Request $request
      */
-    public function addTag($article, $request)
+    public function removeTag(Request $request, Article $article)
     {
-        $verses = $this->em->getRepository('AppBundle:Verse')->findBy([
-            'id' => explode(',', $verses),
-        ]);
-        
-        $tags = $this->getTagList($article);
-        
-        if (null !== $request->get('tags')) {
-            $this->createAndAddVerseToTag($request,$tags);
-        }
-
-        if (null !== $request->get('deletedTags')) {
-            $this->deleteVerseTag($request,$user,$verses);
-        }
-    }
-    
-    public function getTagList($article)
-    {
-        $tagsList = $this->em->getRepository('AppBundle:TagUserVerse')->getTagByArticle($article);
-        $tags = [];
-        foreach ($tagsList as $key => $tag) {
-            $tags[$key] = $tag->getTag();
-        }
-        
-        return $tags;
-    }
-
-    public function createAndAddArticleTag(Request $request, $tags)
-    {
-        foreach ($request->get('tags') as $tag) {
-            $tagGetted = $this->em->getRepository('AppBundle:Tag')->findOneByTitle($tag);
-            if (!in_array($tagGetted, $tags)) {
-                if (null === $tagGetted) {
-                    $tagGetted = new Tag();
-                    $tagGetted->setTitle(strtolower($tag['title']));
-                }
-                $tagVerse = new TagUserVerse();
-                foreach ($verses as $vrs) {
-                    $tagVerse->addVerse($vrs);
-                }
-                $tagVerse->setUser($user);
-                $tagVerse->setTag($praylist);
-                $this->tagUserVerseManager->save($tagVerse);
-            }
-            $tg = $this->em->getRepository('AppBundle:TagUserVerse')->getTagByUser($tag['tag'], $user, $verses);
-            $tg = $tg[0];
-            foreach ($verses as $vrs) {
-                if (!$tg->getVerses()->contains($vrs)) {
-                    $tg->addVerse($vrs);
-                }
-            }
-            $tg->setUser($user);
-            $tg->setTag($praylist);
-            $this->tagUserVerseManager->save($tg);
-        }
-    }
-
-    public function deleteVerseTag(Request $request, User $user, $verses)
-    {
-        foreach ($request->get('deletedTags') as $tag) {
-            $tagVerses = $this->em->getRepository('AppBundle:TagUserVerse')->getTagByUser($tag['tag'], $user, $verses);
-            foreach ($tagVerses as $tagVerse) {
-                $this->tagUserVerseManager->delete($tagVerse);
+        if (null !== $request->get('deletedTags'))
+        {
+            foreach ($request->get('deletedTags') as $key => $tag)
+            {
+                $tagToRemove = $this->em->getRepository($this->className)->findOneByTitle($tag['tag']);
+                $article->removeTag($tagToRemove);
             }
         }
     }
+
+
 
 }

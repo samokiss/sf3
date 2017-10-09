@@ -14,24 +14,84 @@ class DefaultController extends Controller
 {
     /**
      * @Route("/", name="homepage")
-     * @Route("/{id}", name="edit_article", requirements={"id": "\d+"})
      */
-    public function indexAction(Request $request, Article $article = null)
+    public function indexAction(Article $article = null)
     {
-        if (null == $article) {
-            $article = new Article();
-            $article->setDate(new \DateTime());
+        $tags = $this->getDoctrine()->getRepository('AppBundle:Tag')->findAll();
+
+        $articleTags = [];
+        foreach ($tags as $tag) {
+            $articles = $this->getDoctrine()->getRepository('AppBundle:Article')->getArticleByTag($tag);
+            if (!empty($articles)) {
+                $articleTags[$tag->getTitle()] = $articles;
+            }
         }
-
-        $form = $this->createForm(ArticleType::class, $article);
-
-        $articles = $this->getDoctrine()->getRepository('AppBundle:Article')->findAll();
 
         return $this->render(
             'default/index.html.twig',
             [
+                'articleTags' => $articleTags,
+            ]
+        );
+    }
+
+    /**
+     * @Route("/article/add", name="add_article", requirements={"id": "\d+"})
+     * @Route("/article/{article}", name="edit_article", requirements={"id": "\d+"})
+     */
+    public function articleFormAction(Article $article = null)
+    {
+        $data = [];
+        if (null == $article) {
+            $article = new Article();
+            $article->setDate(new \DateTime());
+        } elseif (!is_null($article->getTags())) {
+            foreach ($article->getTags() as $keys => $tag) {
+                $data[]['tag'] = $tag->getTitle();
+            }
+        }
+
+        $tags = $this->getDoctrine()->getRepository('AppBundle:Tag')->findAll();
+
+        $articleTags = [];
+        foreach ($tags as $tag) {
+            $articles = $this->getDoctrine()->getRepository('AppBundle:Article')->getArticleByTag($tag);
+            if (!empty($articles)) {
+                $articleTags[$tag->getTitle()] = $articles;
+            }
+        }
+
+        $form = $this->createForm(ArticleType::class, $article);
+
+
+        return $this->render(
+            'default/createOrEdit.html.twig',
+            [
                 'form' => $form->createView(),
-                'articles' => $articles,
+                'articleTags' => $articleTags,
+                'articleTag' => json_encode($data),
+            ]
+        );
+    }
+
+
+    /**
+     * @Route("/tag/{tag}", name="tagged_article")
+     */
+    public function taggedArticleAction(Tag $tag)
+    {
+
+        $article = new Article();
+        $article->setDate(new \DateTime());
+
+
+        $articleTags[$tag->getTitle()] = $this->getDoctrine()->getRepository('AppBundle:Article')->getArticleByTag($tag);
+
+        return $this->render(
+            'default/index.html.twig',
+            [
+                'articleTags' => $articleTags,
+                'articleTag' => json_encode([]),
             ]
         );
     }
@@ -43,29 +103,14 @@ class DefaultController extends Controller
     {
         $article = $this->getDoctrine()->getRepository('AppBundle:Article')->findOneByTitle($request->get('title'));
 
-        if (is_null($article)) {
-            $article = new Article();
-            $article->setTitle($request->get('title'));
-            $article->setContent($request->get('content'));
-            $article->setDate(new \DateTime());
-        }
+        $article = $this->get('article.manager')->getArticle($request, $article);
 
-        die(dump($article));
-
-        if(null !== $request->get('tags')) {
-            foreach ($request->get('tags') as $key => $tag) {
-                $tagGetted = $this->getDoctrine()->getRepository('AppBundle:Tag')->findOneByTitle($tag['tag']);
-                if(is_null($tagGetted)) {
-                    $tagGetted = new Tag();
-                    $tagGetted->setTitle($tag['tag']);
-                }
-                $article->addTag($tagGetted);
-            }
-        }
-
+        $this->get('tag.manager')->addTag($request, $article);
+        $this->get('tag.manager')->removeTag($request, $article);
         $this->get('article.manager')->save($article);
 
         return new Response('enregistrement ok!');
 
     }
+
 }

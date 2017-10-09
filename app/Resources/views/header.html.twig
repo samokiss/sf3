@@ -10,10 +10,13 @@
                 {% endfor %}
             </li>
         {% endfor %}
-        {% if tagFilter is defined %}
-            <li><a class="btn-large" href="{{ path('homepage') }}">Tous les tags</a></li>
-        {% else %}
-            ta
+        {% if app.request.attributes.get('_route') == 'tagged_article'
+            or app.request.attributes.get('_route') == 'add_article'
+            or app.request.attributes.get('_route') == 'edit_article'%}
+            <li><a class="btn-large" href="{{ path('homepage') }}">Voir toutes les notes</a></li>
+        {% endif %}
+
+        {% if app.request.attributes.get('_route') == 'homepage' %}
             <li><a class="btn-large grey" href="{{ path('add_article') }}">Ajouter une note</a></li>
         {% endif %}
     </ul>

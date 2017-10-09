@@ -1,6 +1,7 @@
 <?php
 
 namespace AppBundle\Repository;
+use AppBundle\Entity\Tag;
 
 /**
  * ArticleRepository
@@ -10,4 +11,14 @@ namespace AppBundle\Repository;
  */
 class ArticleRepository extends \Doctrine\ORM\EntityRepository
 {
+    public function getArticleByTag(Tag $tag)
+    {
+        $qb = $this->createQueryBuilder('article');
+
+        $qb
+            ->join('article.tags', 'tag')
+            ->where($qb->expr()->eq('tag.id',$tag->getId()));
+
+        return $qb->getQuery()->getResult();
+    }
 }

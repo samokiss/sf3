@@ -1,39 +1,33 @@
 {% extends 'base.html.twig' %}
 
 {% block header %}
-    <ul id="nav-mobile" class="side-nav fixed">
-        {% for article in articles %}
-            <li><a href="#{{ article.title }}">{{ article.title }}</a></li>
-        {% endfor %}
-    </ul>
+    {% include 'header.html.twig' %}
 {% endblock %}
 
 {% block body %}
     <div class="container">
-        {{ form_start(form, {'attr': {'id': 'form_article'}}) }}
-        {{ form_widget(form.title) }}
-        {{ form_widget(form.content) }}
-        <div class="chips chips-initial"></div>
-        {{ form_end(form) }}
-        {% for article in articles %}
-            <table>
-                <tr>
-                    <td>
-                        <h2 class="articleId" id="{{ article.title }}">{{ article.title }}</h2>
-                    </td>
-                    <td><a href="{{ path("edit_article", {id : article.id}) }}">modifier</a></td>
-                <tr>
-            </table>
 
-            <div>
-                {{ article.content | raw }}
-                {% for tag in article.tags %}
-                    <div class="chip"><a
-                                href="#">#{{ tag.title }}</a>
-                    </div>
-                {% endfor %}
-            </div>
+        {% for articleList in articleTags %}
+            {% for article in articleList %}
+                <table>
+                    <tr>
+                        <td>
+                            <h2 class="articleId" id="{{ article.title }}">{{ article.title }}</h2>
+                        </td>
+                        <td><a href="{{ path("edit_article", {article : article.id}) }}">modifier</a></td>
+                    <tr>
+                </table>
 
+                <div>
+                    {{ article.content | raw }}
+                    {% for tag in article.tags %}
+                        <div class="chip">
+                            <a href="{{ path("tagged_article", {tag: tag.id}) }}">{{ tag.title }}</a>
+                        </div>
+                    {% endfor %}
+                </div>
+
+            {% endfor %}
         {% endfor %}
     </div>
 {% endblock %}
@@ -41,26 +35,52 @@
 {% block javascripts %}
     <script>
 
-        $('.chips').material_chip();
+        $('.collapsible').collapsible();
+
+        tags = $('.chips').attr('data-tag');
+
+        injectTag(tags);
+
+        function injectTag(tags) {
+            $.ajax({
+                url: Routing.generate('get_tag'),
+                type: 'GET',
+                success: function (json) {
+                    $('.chips').material_chip();
+                    $('.chips-initial').material_chip({
+                        data: JSON.parse(tags),
+                        autocompleteData: JSON.parse(json),
+                        placeholder: "+Tag",
+                        secondaryPlaceholder: 'Ajouter un tag'
+                    });
+                    tagInitials = $('.chips-initial').material_chip('data');
+                }
+            });
+        }
+
 
         $("#form_article").submit(function (e) {
             e.preventDefault();
 
-
             tags = $('.chips-initial').material_chip('data');
+            deletedTags = $(tagInitials).not(tags).get();
+
             title = $('#appbundle_article_title').val();
-            content = $('#appbundle_article_content').val();
+            content = CKEDITOR.instances.appbundle_article_content.getData();
+
+            console.log(title);
             console.log(content);
 
             $.ajax({
                 url: Routing.generate('create_edit_article', {
                     tags: tags,
+                    deletedTags: deletedTags,
                     title: title,
                     content: content
                 }),
-                type: 'GET',
+                type: 'POST',
                 success: function (data) {
-//                    location.reload();
+                    location.reload();
                 }
             });
         });

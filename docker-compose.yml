@@ -13,12 +13,12 @@ services:
         ports:
             - 92:3306
     php:
-        build: php7-fpm
+        build: docker/php7-fpm
         volumes:
             - ./:/var/www/symfony
             - ./logs/symfony:/var/www/symfony/app/logs
     nginx:
-        build: nginx
+        build: docker/nginx
         ports:
             - 90:80
         volumes_from:

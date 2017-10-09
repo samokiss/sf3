@@ -1,252 +1,323 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/app/Resources/views/default/createOrEdit.html.twig" line="5" mnemonic="5" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="187217e3-da07-40ca-ac6f-61c892bbf7a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docker-compose.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elk/logstash/logstash.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elk/logstash/patterns/default.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elk/logstash/patterns/nginx.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elk/logstash/patterns/symfony.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nginx/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nginx/nginx.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nginx/symfony.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php7-fpm/Dockerfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/TagController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AppBundle/Manager/TagManager.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/materialize.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/materialize.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/about/dialogs/logo_ckeditor.png" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_papersq.png" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_papersq.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.jpg" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.png" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/icons.png" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/icons_hidpi.png" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/icons_hidpi.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/image/images/noimage.png" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/image/images/noimage.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/link/images/anchor.png" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/link/images/anchor.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/link/images/hidpi/anchor.png" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/link/images/hidpi/anchor.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/magicline/images/hidpi/icon.png" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/magicline/images/hidpi/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/magicline/images/icon-rtl.png" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/magicline/images/icon-rtl.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/magicline/images/icon.png" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/magicline/images/icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/widget/images/handle.png" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/widget/images/handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/ib_logfile0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/ib_logfile1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/ibdata1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/columns_priv.MYD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/columns_priv.MYI" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/columns_priv.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/db.MYD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/db.MYI" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/db.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/engine_cost.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/engine_cost.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/event.MYD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/event.MYI" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/event.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/func.MYD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/func.MYI" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/func.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/general_log.CSM" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/general_log.CSV" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/general_log.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/gtid_executed.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/gtid_executed.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/help_category.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/help_category.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/help_keyword.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/help_keyword.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/help_relation.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/help_relation.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/help_topic.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/help_topic.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/innodb_index_stats.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/innodb_index_stats.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/innodb_table_stats.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/innodb_table_stats.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/ndb_binlog_index.MYD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/ndb_binlog_index.MYI" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/ndb_binlog_index.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/plugin.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/plugin.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/proc.MYD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/proc.MYI" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/proc.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/procs_priv.MYD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/procs_priv.MYI" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/procs_priv.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/proxies_priv.MYD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/proxies_priv.MYI" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/proxies_priv.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/server_cost.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/server_cost.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/servers.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/servers.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/slave_master_info.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/slave_master_info.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/slave_relay_log_info.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/slave_relay_log_info.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/slave_worker_info.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/slave_worker_info.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/slow_log.CSM" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/slow_log.CSV" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/slow_log.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/tables_priv.MYD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/tables_priv.MYI" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/tables_priv.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/time_zone.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/time_zone.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/time_zone_leap_second.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/time_zone_leap_second.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/time_zone_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/time_zone_name.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/time_zone_transition.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/time_zone_transition.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/time_zone_transition_type.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/time_zone_transition_type.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/user.MYD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/user.MYI" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/user.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/accounts.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/cond_instances.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_stages_current.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_stages_history.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_stages_history_long.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_stages_summary_by_account_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_stages_summary_by_host_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_stages_summary_by_thread_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_stages_summary_by_user_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_stages_summary_global_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_statements_current.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_statements_history.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_statements_history_long.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_statements_summary_by_account_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_statements_summary_by_digest.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_statements_summary_by_host_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_statements_summary_by_program.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_statements_summary_by_thread_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_statements_summary_by_user_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_statements_summary_global_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_transactions_current.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_transactions_history.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_transactions_history_long.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_transactions_summary_by_account_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_transactions_summary_by_host_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_transactions_summary_by_thread_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_transactions_summary_by_user_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_transactions_summary_global_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_waits_current.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_waits_history.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_waits_history_long.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_waits_summary_by_account_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_waits_summary_by_host_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_waits_summary_by_instance.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_waits_summary_by_thread_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_waits_summary_by_user_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/events_waits_summary_global_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/file_instances.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/file_summary_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/file_summary_by_instance.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/global_status.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/global_variables.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/host_cache.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/hosts.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/memory_summary_by_account_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/memory_summary_by_host_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/memory_summary_by_thread_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/memory_summary_by_user_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/memory_summary_global_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/metadata_locks.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/mutex_instances.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/objects_summary_global_by_type.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/performance_timers.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/prepared_statements_instances.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/replication_applier_configuration.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/replication_applier_status.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/replication_applier_status_by_coordinator.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/replication_applier_status_by_worker.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/replication_connection_configuration.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/replication_connection_status.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/replication_group_member_stats.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/replication_group_members.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/rwlock_instances.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/session_account_connect_attrs.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/session_connect_attrs.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/session_status.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/session_variables.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/setup_actors.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/setup_consumers.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/setup_instruments.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/setup_objects.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/setup_timers.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/socket_instances.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/socket_summary_by_event_name.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/socket_summary_by_instance.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/status_by_account.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/status_by_host.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/status_by_thread.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/status_by_user.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/table_handles.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/table_io_waits_summary_by_index_usage.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/table_io_waits_summary_by_table.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/table_lock_waits_summary_by_table.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/threads.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/user_variables_by_thread.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/users.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/variables_by_thread.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/symfony/article.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/symfony/article.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/symfony/article_tag.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/symfony/article_tag.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/symfony/tag.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/symfony/tag.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/sys_config.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/sys_config.ibd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/auto.cnf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/ca-key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/ca.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/client-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/client-key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/ib_buffer_pool" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/mysql/db.opt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/performance_schema/db.opt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/private_key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/public_key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/server-cert.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/server-key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/symfony/db.opt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/db.opt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/host_summary.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/host_summary_by_file_io.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/host_summary_by_file_io_type.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/host_summary_by_stages.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/host_summary_by_statement_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/host_summary_by_statement_type.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/innodb_buffer_stats_by_schema.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/innodb_buffer_stats_by_table.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/innodb_lock_waits.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/io_by_thread_by_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/io_global_by_file_by_bytes.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/io_global_by_file_by_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/io_global_by_wait_by_bytes.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/io_global_by_wait_by_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/latest_file_io.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/memory_by_host_by_current_bytes.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/memory_by_thread_by_current_bytes.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/memory_by_user_by_current_bytes.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/memory_global_by_current_bytes.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/memory_global_total.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/metrics.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/processlist.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/ps_check_lost_instrumentation.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/schema_auto_increment_columns.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/schema_index_statistics.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/schema_object_overview.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/schema_redundant_indexes.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/schema_table_lock_waits.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/schema_table_statistics.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/schema_table_statistics_with_buffer.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/schema_tables_with_full_table_scans.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/schema_unused_indexes.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/session.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/session_ssl_status.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/statement_analysis.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/statements_with_errors_or_warnings.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/statements_with_full_table_scans.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/statements_with_runtimes_in_95th_percentile.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/statements_with_sorting.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/statements_with_temp_tables.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/sys_config.TRG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/sys_config_insert_set_user.TRN" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/sys_config_update_set_user.TRN" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/user_summary.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/user_summary_by_file_io.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/user_summary_by_file_io_type.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/user_summary_by_stages.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/user_summary_by_statement_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/user_summary_by_statement_type.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/version.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/wait_classes_global_by_avg_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/wait_classes_global_by_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/waits_by_host_by_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/waits_by_user_by_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/waits_global_by_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024host_summary.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024host_summary_by_file_io.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024host_summary_by_file_io_type.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024host_summary_by_stages.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024host_summary_by_statement_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024host_summary_by_statement_type.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024innodb_buffer_stats_by_schema.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024innodb_buffer_stats_by_table.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024innodb_lock_waits.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024io_by_thread_by_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024io_global_by_file_by_bytes.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024io_global_by_file_by_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024io_global_by_wait_by_bytes.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024io_global_by_wait_by_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024latest_file_io.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024memory_by_host_by_current_bytes.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024memory_by_thread_by_current_bytes.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024memory_by_user_by_current_bytes.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024memory_global_by_current_bytes.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024memory_global_total.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024processlist.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024ps_digest_95th_percentile_by_avg_us.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024ps_digest_avg_latency_distribution.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024ps_schema_table_statistics_io.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024schema_flattened_keys.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024schema_index_statistics.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024schema_table_lock_waits.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024schema_table_statistics.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024schema_table_statistics_with_buffer.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024schema_tables_with_full_table_scans.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024session.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024statement_analysis.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024statements_with_errors_or_warnings.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024statements_with_full_table_scans.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024statements_with_runtimes_in_95th_percentile.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024statements_with_sorting.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024statements_with_temp_tables.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024user_summary.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024user_summary_by_file_io.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024user_summary_by_file_io_type.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024user_summary_by_stages.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024user_summary_by_statement_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024user_summary_by_statement_type.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024wait_classes_global_by_avg_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024wait_classes_global_by_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024waits_by_host_by_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024waits_by_user_by_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.data/db/sys/x@0024waits_global_by_latency.frm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/default/createOrEdit.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/header.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docker/logs/nginx/error.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docker/logs/nginx/symfony_access.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docker/logs/nginx/symfony_error.log" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/elk/logstash/logstash.conf" afterPath="$PROJECT_DIR$/docker/elk/logstash/logstash.conf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/elk/logstash/patterns/default.conf" afterPath="$PROJECT_DIR$/docker/elk/logstash/patterns/default.conf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/elk/logstash/patterns/nginx.conf" afterPath="$PROJECT_DIR$/docker/elk/logstash/patterns/nginx.conf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/elk/logstash/patterns/symfony.conf" afterPath="$PROJECT_DIR$/docker/elk/logstash/patterns/symfony.conf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/nginx/Dockerfile" afterPath="$PROJECT_DIR$/docker/nginx/Dockerfile" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/nginx/nginx.conf" afterPath="$PROJECT_DIR$/docker/nginx/nginx.conf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/nginx/symfony.conf" afterPath="$PROJECT_DIR$/docker/nginx/symfony.conf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/php7-fpm/Dockerfile" afterPath="$PROJECT_DIR$/docker/php7-fpm/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/app/config/config_dev.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/services.yml" afterPath="$PROJECT_DIR$/app/config/services.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/symfony_requirements" afterPath="$PROJECT_DIR$/bin/symfony_requirements" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docker-compose.yml" afterPath="$PROJECT_DIR$/docker-compose.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Article.php" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Article.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/TagController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/TagController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Form/ArticleType.php" afterPath="$PROJECT_DIR$/src/AppBundle/Form/ArticleType.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app_dev.php" afterPath="$PROJECT_DIR$/web/app_dev.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/build-config.js" afterPath="$PROJECT_DIR$/web/ckeditor/build-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/ckeditor.js" afterPath="$PROJECT_DIR$/web/ckeditor/ckeditor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/lang/en.js" afterPath="$PROJECT_DIR$/web/ckeditor/lang/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/lang/fr.js" afterPath="$PROJECT_DIR$/web/ckeditor/lang/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/about/dialogs/about.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/about/dialogs/about.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/dialogs/codesnippet.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/dialogs/codesnippet.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/CHANGES.md" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/CHANGES.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/LICENSE" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/README.md" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/README.ru.md" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/README.ru.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/arta.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/arta.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/ascetic.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/ascetic.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.dark.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.light.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-dune.light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.dark.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.light.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.dark.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.light.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-heath.light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.dark.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.light.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.dark.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.light.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-seaside.light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_paper.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_paper.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/dark.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/docco.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/docco.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/far.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/far.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/foundation.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/foundation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/github.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/github.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/googlecode.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/googlecode.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/idea.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/idea.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/ir_black.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/ir_black.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/magula.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/magula.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/mono-blue.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/mono-blue.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/obsidian.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/obsidian.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.dark.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.light.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/railscasts.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/railscasts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/rainbow.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/rainbow.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/school_book.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_dark.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_dark.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_light.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_light.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/sunburst.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/sunburst.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-blue.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-blue.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-bright.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-bright.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-eighties.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-eighties.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/vs.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/vs.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/xcode.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/xcode.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/zenburn.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/styles/zenburn.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/dialog/dialogDefinition.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/dialog/dialogDefinition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/image/dialogs/image.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/image/dialogs/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/link/dialogs/anchor.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/link/dialogs/anchor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/link/dialogs/link.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/link/dialogs/link.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/pastefromword/filter/default.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/pastefromword/filter/default.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/scayt/CHANGELOG.md" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/scayt/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/scayt/LICENSE.md" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/scayt/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/scayt/README.md" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/scayt/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/scayt/dialogs/dialog.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/scayt/dialogs/dialog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/scayt/dialogs/options.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/scayt/dialogs/options.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/scayt/dialogs/toolbar.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/scayt/dialogs/toolbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/af.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/af.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/az.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/az.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/ca.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/cy.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/da.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/da.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/eo.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/es.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/et.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/eu.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/eu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/fa.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/fr.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/gl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/he.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/hr.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/id.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/km.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/km.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/ko.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/ko.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/lt.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/lt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/lv.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/nb.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/nl.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/oc.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/oc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/ru.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/si.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/si.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/sl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/sq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/tt.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/tt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/ug.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/uk.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/uk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/vi.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/vi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/lang/zh.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/specialchar.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/table/dialogs/table.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/table/dialogs/table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/tableselection/styles/tableselection.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/tableselection/styles/tableselection.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/tabletools/dialogs/tableCell.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/LICENSE.md" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/LICENSE.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/README.md" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/dialogs/ciframe.html" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/dialogs/ciframe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/dialogs/wsc.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/dialogs/wsc.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/dialogs/wsc.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/dialogs/wsc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/dialogs/wsc_ie.js" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/dialogs/wsc_ie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" afterPath="$PROJECT_DIR$/web/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/config.php" afterPath="$PROJECT_DIR$/web/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Manager/TagManager.php" afterPath="$PROJECT_DIR$/src/AppBundle/Manager/TagManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Repository/ArticleRepository.php" afterPath="$PROJECT_DIR$/src/AppBundle/Repository/ArticleRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/default.css" afterPath="$PROJECT_DIR$/web/css/default.css" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -266,34 +337,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BaseManager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Manager/BaseManager.php">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TagManager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Manager/TagManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="38" column="42" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="42" />
+            <state relative-caret-position="45">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               <folding>
-                <element signature="e#120#149#0#PHP" expanded="true" />
-                <element signature="e#819#836#1#PHP" expanded="true" />
+                <element signature="e#494#506#0#Twig" expanded="false" />
+                <marker date="1507547238000" expanded="true" signature="32:102" ph="{% block header ...%}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArticleManager.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Manager/ArticleManager.php">
+      <file leaf-file-name="ArticleRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/ArticleRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="315">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -302,22 +363,61 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+            <state relative-caret-position="405">
+              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
               <folding>
-                <element signature="e#917#942#0#PHP" expanded="true" />
-                <element signature="e#1292#1311#1#PHP" expanded="true" />
-                <element signature="e#1803#1818#1#PHP" expanded="true" />
+                <element signature="e#40#69#0#PHP" expanded="true" />
+                <element signature="e#552#567#1#PHP" expanded="true" />
+                <element signature="e#703#722#1#PHP" expanded="true" />
+                <element signature="e#912#937#0#PHP" expanded="true" />
+                <element signature="e#1658#1673#1#PHP" expanded="true" />
+                <element signature="e#1809#1828#1#PHP" expanded="true" />
+                <element signature="e#2085#2117#0#PHP" expanded="true" />
+                <element signature="e#2593#2612#1#PHP" expanded="true" />
+                <element signature="e#2681#2706#0#PHP" expanded="true" />
+                <element signature="e#3064#3083#1#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+            <state relative-caret-position="270">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createOrEdit.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/createOrEdit.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="44" />
+              <folding>
+                <element signature="e#957#974#0#Twig" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/header.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -348,26 +448,33 @@
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/app/config/config_dev.yml" />
         <option value="$PROJECT_DIR$/vendor/egeloen/ckeditor-bundle/Resources/public/plugins/codesnippet/plugin.js" />
-        <option value="$PROJECT_DIR$/web/css/default.css" />
         <option value="$PROJECT_DIR$/app/config/config_prod.yml" />
         <option value="$PROJECT_DIR$/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/web/app_dev.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Form/ArticleType.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Manager/PraylistManager.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Manager/BaseManager.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Manager/TagManager.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/web/js/jquery.min.js" />
         <option value="$PROJECT_DIR$/web/css/materialize.min.css" />
         <option value="$PROJECT_DIR$/web/js/materialize.min.js" />
         <option value="$PROJECT_DIR$/app/AppKernel.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Manager/ArticleManager.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Article.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Form/ArticleType.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/TagController.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/app/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Manager/ArticleManager.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Manager/TagManager.php" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Repository/TagRepository.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Repository/ArticleRepository.php" />
+        <option value="$PROJECT_DIR$/web/css/default.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/header.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/createOrEdit.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/header.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -410,7 +517,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -426,56 +533,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sf3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sf3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sf3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sf3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sf3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sf3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sf3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -508,6 +565,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sf3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Repository" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -663,7 +742,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -675,16 +754,19 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib" />
-      <recent name="$PROJECT_DIR$/web/ckeditor/plugins" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Resources/views/default" />
       <recent name="$PROJECT_DIR$/src/AppBundle/Manager" />
       <recent name="$PROJECT_DIR$/src/AppBundle/Controller" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/web" />
-      <recent name="$PROJECT_DIR$/vendor/egeloen/ckeditor-bundle/Resources/public/plugins" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Resources/views" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/docker" />
+      <recent name="$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib" />
+      <recent name="$PROJECT_DIR$/web/ckeditor/plugins" />
     </key>
   </component>
   <component name="RunManager">
@@ -750,19 +832,21 @@
       <workItem from="1506364211249" duration="517000" />
       <workItem from="1507051753920" duration="1705000" />
       <workItem from="1507056385726" duration="3942000" />
-      <workItem from="1507103025768" duration="9164000" />
+      <workItem from="1507103025768" duration="17891000" />
+      <workItem from="1507326915467" duration="1867000" />
+      <workItem from="1507364558077" duration="12502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46882000" />
+    <option name="totallyTimeSpent" value="69978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33198708" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="2269" y="82" width="341" height="857" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34248787" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="2269" y="82" width="341" height="857" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32788798" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -826,56 +910,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="79" column="26" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app_dev.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose-common.yml" />
-    <entry file="file://$PROJECT_DIR$/composer.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker/web/Dockerfile" />
     <entry file="file://$PROJECT_DIR$/docker-compose.dev.yml" />
     <entry file="file://$PROJECT_DIR$/docker/web/ports.conf" />
@@ -1013,35 +1047,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/TagType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#34#59#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/TagType.php" />
     <entry file="file://$PROJECT_DIR$/web/app_dev.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/ArticleType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="2" selection-end-line="24" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,9 +1066,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="9" column="20362" selection-start-line="9" selection-start-column="20362" selection-end-line="9" selection-end-column="20362" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1066,23 +1073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-19608">
           <caret line="15" column="9204" selection-start-line="15" selection-start-column="9204" selection-end-line="15" selection-end-column="9204" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Manager/BaseManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1094,31 +1084,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Manager/ArticleManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11994">
           <caret line="3" column="22484" selection-start-line="3" selection-start-column="22484" selection-end-line="3" selection-end-column="22484" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <element signature="e#957#974#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1126,55 +1095,181 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Manager/BaseManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/TagController.php">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/ArticleType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        <state relative-caret-position="210">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state relative-caret-position="2370">
+          <caret line="158" column="20" selection-start-line="158" selection-start-column="20" selection-end-line="158" selection-end-column="20" />
           <folding>
             <element signature="e#36#84#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Manager/TagManager.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_8.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="38" column="42" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="42" />
+        <state relative-caret-position="12570">
+          <caret line="838" column="9" selection-start-line="838" selection-start-column="9" selection-end-line="838" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/TagController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
           <folding>
-            <element signature="e#120#149#0#PHP" expanded="true" />
-            <element signature="e#819#836#1#PHP" expanded="true" />
+            <element signature="e#40#69#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Manager/ArticleManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+        <state relative-caret-position="465">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
           <folding>
-            <element signature="e#917#942#0#PHP" expanded="true" />
-            <element signature="e#1292#1311#1#PHP" expanded="true" />
-            <element signature="e#1803#1818#1#PHP" expanded="true" />
+            <element signature="e#126#155#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Manager/TagManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="e#120#149#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/TagRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding>
+            <element signature="e#494#506#0#Twig" expanded="false" />
+            <marker date="1507547238000" expanded="true" signature="32:102" ph="{% block header ...%}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/createOrEdit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="44" />
+          <folding>
+            <element signature="e#957#974#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Repository/ArticleRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+          <folding>
+            <element signature="e#40#69#0#PHP" expanded="true" />
+            <element signature="e#552#567#1#PHP" expanded="true" />
+            <element signature="e#703#722#1#PHP" expanded="true" />
+            <element signature="e#912#937#0#PHP" expanded="true" />
+            <element signature="e#1658#1673#1#PHP" expanded="true" />
+            <element signature="e#1809#1828#1#PHP" expanded="true" />
+            <element signature="e#2085#2117#0#PHP" expanded="true" />
+            <element signature="e#2593#2612#1#PHP" expanded="true" />
+            <element signature="e#2681#2706#0#PHP" expanded="true" />
+            <element signature="e#3064#3083#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
           <folding />
         </state>
       </provider>
