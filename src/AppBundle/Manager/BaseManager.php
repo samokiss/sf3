@@ -26,7 +26,7 @@ abstract class BaseManager
      * @param EntityManager $em
      * @param $className
      */
-    public function __construct(EntityManager $em, string $className)
+    public function __construct(EntityManager $em, $className)
     {
         $this->em = $em;
         $this->className = $className;

@@ -15,7 +15,7 @@ use Symfony\Component\HttpFoundation\Request;
 
 class ArticleManager extends BaseManager
 {
-    public function __construct(EntityManager $em, string $className)
+    public function __construct(EntityManager $em, $className)
     {
         parent::__construct($em, $className);
     }
