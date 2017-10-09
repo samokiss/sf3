@@ -1,0 +1,20 @@
+<ul id="nav-mobile" class="side-nav fixed">
+    <ul class="collapsible" data-collapsible="accordion">
+        {% for tag, articleList in articleTags %}
+            <li>
+                <div class="collapsible-header">{{ tag }}</div>
+                {% for article in articleList %}
+                    <div class="collapsible-body">
+                        <a class="margin-title" href="#{{ article.title }}">{{ article.title }}</a>
+                    </div>
+                {% endfor %}
+            </li>
+        {% endfor %}
+        {% if tagFilter is defined %}
+            <li><a class="btn-large" href="{{ path('homepage') }}">Tous les tags</a></li>
+        {% else %}
+            ta
+            <li><a class="btn-large grey" href="{{ path('add_article') }}">Ajouter une note</a></li>
+        {% endif %}
+    </ul>
+</ul>
