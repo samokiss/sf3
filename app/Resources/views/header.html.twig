@@ -1,11 +1,15 @@
 <nav id="navbar-custom">
     <div class="nav-wrapper">
-        <a href="#" data-activates="mobile-demo" class="button-collapse mobile-button"><i class="material-icons">menu</i></a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse mobile-button"><i
+                    class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="side-nav fixed">
             <ul class="collapsible" data-collapsible="accordion">
                 {% for tag, articleList in articleTags %}
                     <li>
-                        <div class="collapsible-header">
+                        <div class="collapsible-header
+                         {% if app.request.attributes.get('_route') == 'tagged_article'
+                            or app.request.attributes.get('_route') == 'tagged_article_title' %}active{% endif %}
+                        ">
                             <span class="menu-custom open-tag" data-title="{{ tag }}">{{ tag }}</span>
                         </div>
                         {% for article in articleList %}
