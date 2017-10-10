@@ -5,7 +5,9 @@
             <ul class="collapsible" data-collapsible="accordion">
                 {% for tag, articleList in articleTags %}
                     <li>
-                        <div class="collapsible-header menu-custom">{{ tag }}</div>
+                        <div class="collapsible-header">
+                            <span class="menu-custom open-tag" data-title="{{ tag }}">{{ tag }}</span>
+                        </div>
                         {% for article in articleList %}
                             <div class="collapsible-body">
                                 <a class="margin-title" href="#{{ article.title }}">{{ article.title }}</a>
@@ -15,6 +17,7 @@
                 {% endfor %}
                 {% if app.request.attributes.get('_route') == 'tagged_article'
                 or app.request.attributes.get('_route') == 'add_article'
+                or app.request.attributes.get('_route') == 'tagged_article_title'
                 or app.request.attributes.get('_route') == 'edit_article' %}
                     <li><a class="btn-large" href="{{ path('homepage') }}">Voir toutes les notes</a></li>
                 {% endif %}

@@ -15,7 +15,7 @@ services:
     php:
         build: docker/php7-fpm
         volumes:
-            - ./:/var/www/symfony
+            - app-sync:/var/www/symfony
             - ./logs/symfony:/var/www/symfony/app/logs
     nginx:
         build: docker/nginx
@@ -35,3 +35,6 @@ services:
         volumes_from:
             - php
             - nginx
+    volumes:
+        app-sync:
+            external: true

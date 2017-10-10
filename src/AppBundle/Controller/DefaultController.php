@@ -31,6 +31,7 @@ class DefaultController extends Controller
             'default/index.html.twig',
             [
                 'articleTags' => $articleTags,
+                'articleList' => $articleTags['Global'],
             ]
         );
     }
@@ -77,10 +78,21 @@ class DefaultController extends Controller
 
 
     /**
+     *
      * @Route("/tag/{tag}", name="tagged_article")
+     * @Route("/tagtitle/{tagTitle}", name="tagged_article_title", options={"expose"=true})
+     *
+     * @param Tag $tag
+     * @param Request $request
+     * @return Response
      */
-    public function taggedArticleAction(Tag $tag)
+    public function taggedArticleAction(Tag $tag = null, Request $request)
     {
+
+        if(is_string($request->get('tagTitle'))){
+            $tagTitle = $request->get('tagTitle');
+            $tag = $this->getDoctrine()->getRepository('AppBundle:Tag')->findOneByTitle($tagTitle);
+        }
 
         $article = new Article();
         $article->setDate(new \DateTime());
@@ -91,6 +103,7 @@ class DefaultController extends Controller
             'default/index.html.twig',
             [
                 'articleTags' => $articleTags,
+                'articleList' => $articleTags[$tag->getTitle()],
                 'articleTag' => json_encode([]),
             ]
         );
