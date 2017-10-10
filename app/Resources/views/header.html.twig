@@ -26,7 +26,8 @@
                     <li><a class="btn-large" href="{{ path('homepage') }}">Voir toutes les notes</a></li>
                 {% endif %}
 
-                {% if app.request.attributes.get('_route') == 'homepage' %}
+                {% if app.request.attributes.get('_route') != 'edit_article'
+                    or app.request.attributes.get('_route') != 'add_article' %}
                     <li><a class="btn-large grey" href="{{ path('add_article') }}">Ajouter une note</a></li>
                 {% endif %}
             </ul>
