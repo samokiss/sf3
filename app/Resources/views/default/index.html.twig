@@ -6,28 +6,25 @@
 
 {% block body %}
     <div class="container">
+        {% for article in articleTags.Global %}
+            <table>
+                <tr>
+                    <td>
+                        <h2 class="articleId" id="{{ article.title }}">{{ article.title }}</h2>
+                    </td>
+                    <td><a href="{{ path("edit_article", {article : article.id}) }}">modifier</a></td>
+                <tr>
+            </table>
 
-        {% for articleList in articleTags %}
-            {% for article in articleList %}
-                <table>
-                    <tr>
-                        <td>
-                            <h2 class="articleId" id="{{ article.title }}">{{ article.title }}</h2>
-                        </td>
-                        <td><a href="{{ path("edit_article", {article : article.id}) }}">modifier</a></td>
-                    <tr>
-                </table>
+            <div>
+                {{ article.content | raw }}
+                {% for tag in article.tags %}
+                    <div class="chip">
+                        <a href="{{ path("tagged_article", {tag: tag.id}) }}">{{ tag.title }}</a>
+                    </div>
+                {% endfor %}
+            </div>
 
-                <div>
-                    {{ article.content | raw }}
-                    {% for tag in article.tags %}
-                        <div class="chip">
-                            <a href="{{ path("tagged_article", {tag: tag.id}) }}">{{ tag.title }}</a>
-                        </div>
-                    {% endfor %}
-                </div>
-
-            {% endfor %}
         {% endfor %}
     </div>
 {% endblock %}
