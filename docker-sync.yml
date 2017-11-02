@@ -13,5 +13,5 @@ syncs:
     sync_excludes: ['.gitignore', '.git/'] # see which one is the best
     sync_excludes_type: 'Path'
     sync_args:
-      - "-ignore='Path .git/ .gitignore'"
+      - "-ignore='Path .git/ .gitignore' -prefer newer"
     sync_strategy: 'unison'

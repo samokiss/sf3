@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block header %}
+    {% include 'header.html.twig' %}
+{% endblock %}
+
+
+{% block body %}
+    <div class="container">
+        {% if app.request.attributes.get('_route') == 'tag_edit' %}
+            {{ form(form) }}
+        {% endif %}
+        <table>
+            <thead>
+            <tr>
+                <th>Titre</th>
+                <th>Modifier</th>
+                <th>Supprimer</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            {% for tag in tags %}
+                <tr>
+                    <td>{{ tag.title }}</td>
+                    <td><a href="{{ path("tag_edit", {tag:tag.id}) }}"><i class="material-icons">create</i></a></td>
+                    <td><a href="{{ path("tag_delete", {tag:tag.id}) }}"><i class="material-icons">delete</i></a></td>
+                </tr>
+
+            {% endfor %}
+            </tbody>
+        </table>
+
+    </div>
+{% endblock %}
