@@ -1,4 +1,17 @@
 version: '2'
+
+options:
+  compose-file-path: 'docker-compose-dev.yml'
+  verbose: true
+  cli_mode: 'auto'
 syncs:
-	app-sync:
-		src: './'
+  sf3-sync:
+    notify_terminal: true
+    src: '.' # the directory on the host system
+    sync_host_port: 10872 # unique port
+    sync_host_ip: '127.0.0.1'
+    sync_excludes: ['.gitignore', '.git/'] # see which one is the best
+    sync_excludes_type: 'Path'
+    sync_args:
+      - "-ignore='Path .git/ .gitignore'"
+    sync_strategy: 'unison'

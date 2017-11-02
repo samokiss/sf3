@@ -13,6 +13,7 @@
                         <h2 class="articleId" id="{{ article.title }}">{{ article.title }}</h2>
                     </td>
                     <td><a href="{{ path("edit_article", {article : article.id}) }}">modifier</a></td>
+                    <td><a href="{{ path("delete_article", {article : article.id}) }}">supprimer</a></td>
                 <tr>
             </table>
 

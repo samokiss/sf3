@@ -19,10 +19,7 @@
                         {% endfor %}
                     </li>
                 {% endfor %}
-                {% if app.request.attributes.get('_route') == 'tagged_article'
-                or app.request.attributes.get('_route') == 'add_article'
-                or app.request.attributes.get('_route') == 'tagged_article_title'
-                or app.request.attributes.get('_route') == 'edit_article' %}
+                {% if app.request.attributes.get('_route') != 'homepage' %}
                     <li><a class="btn-large" href="{{ path('homepage') }}">Voir toutes les notes</a></li>
                 {% endif %}
 
@@ -30,6 +27,8 @@
                     or app.request.attributes.get('_route') != 'add_article' %}
                     <li><a class="btn-large grey" href="{{ path('add_article') }}">Ajouter une note</a></li>
                 {% endif %}
+                <li><a class="btn-large blue" href="{{ path('tag_all') }}">Modifier Tag</a></li>
+
             </ul>
         </ul>
         <ul class="side-nav" id="mobile-demo">
@@ -53,6 +52,7 @@
                 {% if app.request.attributes.get('_route') == 'homepage' %}
                     <li><a class="btn-large grey" href="{{ path('add_article') }}">Ajouter une note</a></li>
                 {% endif %}
+                <li><a class="btn-large blue" href="{{ path('tag_all') }}">Modifier Tag</a></li>
             </ul>
         </ul>
     </div>

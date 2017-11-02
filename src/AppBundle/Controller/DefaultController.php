@@ -17,15 +17,7 @@ class DefaultController extends Controller
      */
     public function indexAction(Article $article = null)
     {
-        $tags = $this->getDoctrine()->getRepository('AppBundle:Tag')->findAll();
-
-        $articleTags = [];
-        foreach ($tags as $tag) {
-            $articles = $this->getDoctrine()->getRepository('AppBundle:Article')->getArticleByTag($tag);
-            if (!empty($articles)) {
-                $articleTags[$tag->getTitle()] = $articles;
-            }
-        }
+        $articleTags = $this->get('tag.manager')->getArticleByTag();
 
         return $this->render(
             'default/index.html.twig',
@@ -52,15 +44,7 @@ class DefaultController extends Controller
             }
         }
 
-        $tags = $this->getDoctrine()->getRepository('AppBundle:Tag')->findAll();
-
-        $articleTags = [];
-        foreach ($tags as $tag) {
-            $articles = $this->getDoctrine()->getRepository('AppBundle:Article')->getArticleByTag($tag);
-            if (!empty($articles)) {
-                $articleTags[$tag->getTitle()] = $articles;
-            }
-        }
+        $articleTags = $this->get('tag.manager')->getArticleByTag();
 
         $form = $this->createForm(ArticleType::class, $article);
 
@@ -124,6 +108,16 @@ class DefaultController extends Controller
 
         return new Response('enregistrement ok!');
 
+    }
+    
+    /**
+     * @Route("/article/delete/{article}", name="delete_article", options={"expose"=true})
+     */
+    public function deleteAction(Article $article)
+    {
+        $this->get('article.manager')->remove($article);
+
+        return new Response('suppression ok!');
     }
 
 }

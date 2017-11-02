@@ -4,7 +4,7 @@ services:
     db:
         image: mysql
         volumes:
-            - "./.data/db:/var/lib/mysql"
+            - "./docker/.data/db:/var/lib/mysql"
         environment:
             MYSQL_ROOT_PASSWORD: root
             MYSQL_DATABASE: symfony
@@ -15,8 +15,8 @@ services:
     php:
         build: docker/php7-fpm
         volumes:
-            - app-sync:/var/www/symfony
-            - ./logs/symfony:/var/www/symfony/app/logs
+            - sf3-sync:/var/www:rw
+            - ./docker/logs/symfony:/var/www/var/logs
     nginx:
         build: docker/nginx
         ports:
@@ -24,17 +24,17 @@ services:
         volumes_from:
             - php
         volumes:
-            - ./logs/nginx/:/var/log/nginx
+            - ./docker/logs/nginx/:/var/log/nginx
     elk:
         image: willdurand/elk
         ports:
-            - 81:80
+            - 91:80
         volumes:
-            - ./elk/logstash:/etc/logstash
-            - ./elk/logstash/patterns:/opt/logstash/patterns
+            - ./docker/elk/logstash:/etc/logstash
+            - ./docker/elk/logstash/patterns:/opt/logstash/patterns
         volumes_from:
             - php
             - nginx
-    volumes:
-        app-sync:
-            external: true
+volumes:
+    sf3-sync:
+        external: true

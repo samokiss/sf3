@@ -4,23 +4,23 @@ services:
     db:
         image: mysql
         volumes:
-            - "./.data/db:/var/lib/mysql"
+            - "./docker/.data/db:/var/lib/mysql"
         environment:
             MYSQL_ROOT_PASSWORD: root
-            MYSQL_DATABASE: symfony
+            MYSQL_DATABASE: etf
             MYSQL_USER: root
             MYSQL_PASSWORD: root
         ports:
-            - 92:3306
+            - 82:3306
     php:
         build: docker/php7-fpm
         volumes:
-            - ./:/var/www/symfony
-            - ./logs/symfony:/var/www/symfony/app/logs
+            - ./:/var/www:rw
+            - ./logs/symfony:/var/www/symfony/var/logs
     nginx:
         build: docker/nginx
         ports:
-            - 90:80
+            - 80:80
         volumes_from:
             - php
         volumes:

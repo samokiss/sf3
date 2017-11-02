@@ -38,4 +38,11 @@ abstract class BaseManager
         $this->em->persist($entity);
         $this->em->flush();
     }
+
+    public function remove($entity)
+    {
+        $this->em->getRepository($this->className);
+        $this->em->remove($entity);
+        $this->em->flush();
+    }
 }

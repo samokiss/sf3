@@ -60,6 +60,19 @@ class TagManager extends BaseManager
         }
     }
 
+    public function getArticleByTag()
+    {
+        $tags = $this->em->getRepository($this->className)->findAll();
 
-
+        $articleTags = [];
+        foreach ($tags as $tag) {
+            $articles = $this->em->getRepository('AppBundle:Article')->getArticleByTag($tag);
+            if (!empty($articles)) {
+                $articleTags[$tag->getTitle()] = $articles;
+            }
+        }
+        
+        return $articleTags;
+    }
+    
 }
