@@ -37,7 +37,11 @@
                     $('.chips').material_chip();
                     $('.chips-initial').material_chip({
                         data: JSON.parse(tags),
-                        autocompleteData: JSON.parse(json),
+                        autocompleteOptions: {
+                            data: JSON.parse(json),
+                            limit: Infinity,
+                            minLength: 1
+                        },
                         placeholder: "+Tag",
                         secondaryPlaceholder: 'Ajouter un tag'
                     });
