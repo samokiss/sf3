@@ -32,7 +32,7 @@ class ExtractTest
     public function extractTestNode()
     {
         $finder = new Finder();
-        $finder->files()->in($this->kernel->getRootDir() . '/../web/symfony_test/')->name('4.htm');
+        $finder->files()->in($this->kernel->getRootDir() . '/../web/symfony_test/')->name('*.htm');
 
         $nodes = $tests = [];
         foreach ($finder as $file) {
