@@ -4,10 +4,10 @@
  	<div ng-controller ="StoreController as store"><!-- store est un alias -->
  		<div ng-repeat="product in store.products">
  			<div ng-hide="product.soldOut">
-		 		<h1>{{ product.name }}</h1>
-		 		<h2>{{ product.price | currency}}</h2>
-		 		<p>{{ product.description }}</p>
-		 		<img ng-src="{{ product.image.full }}">
+		 		{#<h1>{{ product.name }}</h1>#}
+		 		{#<h2>{{ product.price | currency}}</h2>#}
+		 		{#<p>{{ product.description }}</p>#}
+		 		{#<img ng-src="{{ product.image.full }}">#}
 		 		<button ng-show="product.canPurchase"> Add to cart </button>
 	 		</div>
 	 	</div>
