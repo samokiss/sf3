@@ -68,7 +68,7 @@ class ExtractTest
      * @param array $tests
      * @return array
      */
-    public function arrayPostTreatment(array $test): array
+    public function arrayPostTreatment($test)
     {
         $test['tag'] = trim($test['tag'][0]);
         $test['type'] = end($test['version']);
@@ -100,9 +100,9 @@ class ExtractTest
 
     /**
      * @param array $test
-     * @return string
+     * @return array
      */
-    public function arrayToHtml(array $test): array
+    public function arrayToHtml($test)
     {
         $html = "";
 
@@ -138,7 +138,7 @@ class ExtractTest
     /**
      * @param array $tests
      */
-    public function saveTestQuestion(array $tests)
+    public function saveTestQuestion($tests)
     {
         foreach ($tests as $test) {
             $question = substr($test['html'], 0, strpos($test['html'], '<ul>'));
