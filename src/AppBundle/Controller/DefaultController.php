@@ -29,10 +29,15 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/article/add", name="add_article", requirements={"id": "\d+"})
-     * @Route("/article/{article}", name="edit_article", requirements={"id": "\d+"})
+     * @Route("/article/add/{tag}", name="add_article", requirements={"tag": "\d+"})
+     * @Route("/article/{article}", name="edit_article", requirements={"article": "\d+"})
+     *
+     * @param Article $article
+     * @param Request $request
+     *
+     * @return Response
      */
-    public function articleFormAction(Article $article = null)
+    public function articleFormAction(Tag $tag = null, Article $article = null, Request $request)
     {
         $data = [];
         if (null == $article) {
@@ -42,6 +47,8 @@ class DefaultController extends Controller
             foreach ($article->getTags() as $keys => $tag) {
                 $data[]['tag'] = $tag->getTitle();
             }
+        } elseif (null != $tag) {
+            $data[]['tag'] = $tag;
         }
 
         $articleTags = $this->get('tag.manager')->getArticleByTag();
@@ -73,7 +80,7 @@ class DefaultController extends Controller
     public function taggedArticleAction(Tag $tag = null, Request $request)
     {
 
-        if(is_string($request->get('tagTitle'))){
+        if (is_string($request->get('tagTitle'))) {
             $tagTitle = $request->get('tagTitle');
             $tag = $this->getDoctrine()->getRepository('AppBundle:Tag')->findOneByTitle($tagTitle);
         }
@@ -89,6 +96,7 @@ class DefaultController extends Controller
                 'articleTags' => $articleTags,
                 'articleList' => $articleTags[$tag->getTitle()],
                 'articleTag' => json_encode([]),
+                'tag' => $tag,
             ]
         );
     }
@@ -101,7 +109,7 @@ class DefaultController extends Controller
         $article = $this->getDoctrine()->getRepository('AppBundle:Article')->findOneById($request->get('id'));
 
         $article = $this->get('article.manager')->getArticle($request, $article);
-        
+
         $this->get('tag.manager')->addTag($request, $article);
         $this->get('tag.manager')->removeTag($request, $article);
         $this->get('article.manager')->save($article);
@@ -109,7 +117,7 @@ class DefaultController extends Controller
         return new Response('enregistrement ok!');
 
     }
-    
+
     /**
      * @Route("/article/delete/{article}", name="delete_article", options={"expose"=true})
      */
@@ -118,6 +126,26 @@ class DefaultController extends Controller
         $this->get('article.manager')->remove($article);
 
         return new Response('suppression ok!');
+    }
+
+    /**
+     * @Route("/article/check/{checkbox}", name="check_answer", options={"expose"=true})
+     */
+    public function checkAnswerAction(string $checkbox)
+    {
+        $article = $this->getDoctrine()->getRepository('AppBundle:Article')->findOneByLike(['content' => $checkbox]);
+        if (strpos($article->getContent(), $checkbox . ' checked="checked"')) {
+            $content = str_replace($checkbox . ' checked="checked"', $checkbox, $article->getContent());
+        } else {
+            $content = str_replace($checkbox, $checkbox . ' checked="checked"', $article->getContent());
+        }
+
+        $article->setContent($content);
+
+
+        $this->get('article.manager')->save($article);
+
+        return new Response('checking ok!');
     }
 
 }

@@ -10,3 +10,6 @@ services:
     tag.manager:
         class: AppBundle\Manager\TagManager
         arguments: ["@doctrine.orm.entity_manager", "AppBundle:Tag"]
+    extract.test:
+        class: AppBundle\Services\ExtractTest
+        arguments: ["@kernel","@doctrine.orm.entity_manager" ]

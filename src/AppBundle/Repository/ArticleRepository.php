@@ -1,6 +1,7 @@
 <?php
 
 namespace AppBundle\Repository;
+
 use AppBundle\Entity\Tag;
 
 /**
@@ -17,8 +18,32 @@ class ArticleRepository extends \Doctrine\ORM\EntityRepository
 
         $qb
             ->join('article.tags', 'tag')
-            ->where($qb->expr()->eq('tag.id',$tag->getId()));
+            ->where($qb->expr()->eq('tag.id', $tag->getId()));
 
         return $qb->getQuery()->getResult();
+    }
+
+    public function findByLike(array $array)
+    {
+        $title = array_keys($array);
+
+        $qb = $this->createQueryBuilder('article');
+
+        $qb->where($qb->expr()->like('article.' . array_shift($title), ':title'));
+        $qb->setParameter('title', array_shift($array) . '%');
+
+        return $qb->getQuery()->getResult();
+    }
+
+    public function findOneByLike(array $array)
+    {
+        $title = array_keys($array);
+
+        $qb = $this->createQueryBuilder('article');
+
+        $qb->where($qb->expr()->like('article.' . array_shift($title), ':title'));
+        $qb->setParameter('title', '%' . array_shift($array) . '%');
+
+        return $qb->getQuery()->getSingleResult();
     }
 }

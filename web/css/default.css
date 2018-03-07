@@ -33,3 +33,7 @@ header, main, footer {
         padding-left: 0;
     }
 }
+
+.article{
+    border-bottom: 3px solid black;
+}

@@ -8,7 +8,7 @@
                     <li>
                         <div class="collapsible-header
                          {% if app.request.attributes.get('_route') == 'tagged_article'
-                            or app.request.attributes.get('_route') == 'tagged_article_title' %}active{% endif %}
+                        or app.request.attributes.get('_route') == 'tagged_article_title' %}active{% endif %}
                         ">
                             <span class="menu-custom open-tag" data-title="{{ tag }}">{{ tag }}</span>
                         </div>
@@ -24,8 +24,10 @@
                 {% endif %}
 
                 {% if app.request.attributes.get('_route') != 'edit_article'
-                    or app.request.attributes.get('_route') != 'add_article' %}
-                    <li><a class="btn-large grey" href="{{ path('add_article') }}">Ajouter une note</a></li>
+                or app.request.attributes.get('_route') != 'add_article' %}
+                    <li><a class="btn-large grey" href="{{ path('add_article')}}">Ajouter une note</a>
+                    {#<li><a class="btn-large grey" href="{{ path('add_article', {tag : tag.id}) }}">Ajouter une note</a>#}
+                    </li>
                 {% endif %}
                 <li><a class="btn-large blue" href="{{ path('tag_all') }}">Modifier Tag</a></li>
 
@@ -50,7 +52,9 @@
                 {% endif %}
 
                 {% if app.request.attributes.get('_route') == 'homepage' %}
-                    <li><a class="btn-large grey" href="{{ path('add_article') }}">Ajouter une note</a></li>
+                    <li><a class="btn-large grey" href="{{ path('add_article') }}">Ajouter une note</a>
+                    {#<li><a class="btn-large grey" href="{{ path('add_article', {tag : tag.id}) }}">Ajouter une note</a>#}
+                    </li>
                 {% endif %}
                 <li><a class="btn-large blue" href="{{ path('tag_all') }}">Modifier Tag</a></li>
             </ul>
