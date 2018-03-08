@@ -131,7 +131,7 @@ class DefaultController extends Controller
     /**
      * @Route("/article/check/{checkbox}", name="check_answer", options={"expose"=true})
      */
-    public function checkAnswerAction(string $checkbox)
+    public function checkAnswerAction($checkbox)
     {
         $article = $this->getDoctrine()->getRepository('AppBundle:Article')->findOneByLike(['content' => $checkbox]);
         if (strpos($article->getContent(), $checkbox . ' checked="checked"')) {
