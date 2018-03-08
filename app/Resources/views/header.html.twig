@@ -10,7 +10,10 @@
                          {% if app.request.attributes.get('_route') == 'tagged_article'
                         or app.request.attributes.get('_route') == 'tagged_article_title' %}active{% endif %}
                         ">
-                            <span class="menu-custom open-tag" data-title="{{ tag }}">{{ tag }}</span>
+                            <span class="menu-custom open-tag" data-title="{{ tag }}">
+                                {{ tag }}<span class="list-length">{{ articleList | length }}</span>
+                            </span>
+
                         </div>
                         {% for article in articleList %}
                             <div class="collapsible-body">
@@ -37,7 +40,9 @@
             <ul class="collapsible" data-collapsible="accordion">
                 {% for tag, articleList in articleTags %}
                     <li>
-                        <div class="collapsible-header menu-custom">{{ tag }}</div>
+                        <div class="collapsible-header menu-custom">
+                            {{ tag }}<span class="list-length">{{ articleList | length }}</span>
+                        </div>
                         {% for article in articleList %}
                             <div class="collapsible-body">
                                 <a class="margin-title" href="#{{ article.title }}">{{ article.title }}</a>
