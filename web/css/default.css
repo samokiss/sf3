@@ -47,3 +47,7 @@ header, main, footer {
     padding: 1px 5px;
     margin-left: 12px;
 }
+
+.large-padding-top {
+    padding-top: 120px;
+}
