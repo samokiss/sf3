@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Test results</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56" sizes="32x32">
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56" sizes="16x16">
+    <link rel="manifest" href="/manifest.json?sluv=ab482e6466377cc56bb2156628b06836a19c3d56">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg?sluv=ab482e6466377cc56bb2156628b06836a19c3d56" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="SensioLabs University">
+    <meta name="application-name" content="SensioLabs University">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/css/main.css?sluv=ab482e6466377cc56bb2156628b06836a19c3d56">
+    <link rel="stylesheet" href="/css/semantic.css?sluv=ab482e6466377cc56bb2156628b06836a19c3d56" />
+    <link rel="stylesheet" href="/css/prism.css?sluv=ab482e6466377cc56bb2156628b06836a19c3d56">
+    <link rel="stylesheet" href="/css/ui.css?sluv=ab482e6466377cc56bb2156628b06836a19c3d56">
+    <script src="//d3js.org/d3.v4.js"></script>
+    <script src="//d3js.org/d3-scale-chromatic.v0.3.js"></script>
+    <link rel="stylesheet" href="/css/slu-custom.css?sluv=ab482e6466377cc56bb2156628b06836a19c3d56">
+
+    
+    
+    <link rel="stylesheet" href="https://connect.sensiolabs.com/css/sln.css" type="text/css" media="all" />
+
+    
+    <!--[if lt IE 9]>
+    <script src="/bundles/app/new/js/html5shiv.js?sluv=ab482e6466377cc56bb2156628b06836a19c3d56"></script>
+    <script src="/bundles/app/new/js/respond.min.js?sluv=ab482e6466377cc56bb2156628b06836a19c3d56"></script>
+    <![endif]-->
+                <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      // tracker methods like "setCustomDimension" should be called before "trackPageView"
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      _paq.push(['enableHeartBeatTimer']);
+            _paq.push(['setUserId', '6d842f89-70b4-4c50-9a14-16db92ae07f5']);
+            (function() {
+        var u="//university.sensiolabs.com/piwik/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+    </head>
+<body style="padding-top: 96px;background:#fafafa;">
+<div id="sln"></div>
+<header>
+        <div class="ui fixed menu" style="margin-top: 36px;">
+        <div class="ui container">
+            <a href="/" class="header item desktop" style="border: none;box-shadow: none;">
+                <img class="logo" src="/images/sensiolabs-university.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56" style="height: 40px;width: auto;">
+                            </a>
+            <div class="right menu desktop">
+                <div class="ui labeled icon menu topFixedNavigation">
+                                                        <a href="/learn/learn" class="item" style="height:100%;color: #FFF">
+                    <i class="student icon"></i>
+                    Learn
+                </a>
+                                                <a href="/test" class="active item" style="height:100%;color: #FFF">
+                    <i class="checkmark box icon"></i>
+                    Test
+                </a>
+                                                <a href="/me" class="item" style="height:100%;color: #FFF">
+                    <i class="dashboard icon"></i>
+                    Dashboard
+                </a>
+                                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="left menu mobile">
+        <div class="ui labeled icon menu" style="border: none;box-shadow: none;background:transparent;">
+            <div class="ui dropdown item" style="color:#FFF">
+                <i class="content icon"></i>
+                <div class="menu">
+                                                                <a href="/learn/learn" class="item">
+                    <i class="student icon"></i>
+                    Learn
+                </a>
+                                                <a href="/test" class="item">
+                    <i class="checkmark box icon"></i>
+                    Test
+                </a>
+                                                <a href="/me" class="item">
+                    <i class="dashboard icon"></i>
+                    Dashboard
+                </a>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="/" class="header item mobile" style="border: none;box-shadow: none;">
+        <img class="logo" src="/images/sensiolabs-university.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56" style="height: 40px;width: auto;">
+            </a>
+
+    <div class="divider"></div>
+</header>
+<div id="grid_container" class="ui container" style="margin-bottom: 60px;margin-top: 90px;">
+        <div class="ui two column stackable grid">
+        <div id="sidebar" class="four wide column"><div class="ui segment"><h2>Daily test</h2><span class="ui red huge label" style="width: 100%;text-align: center;">9 / 20</span><div class="ui tiny one statistics"><div class="ui statistic" style="margin-top:1em;"><div class="label">
+                finished in
+            </div><div class="value">
+                32 minutes 3 seconds
+            </div></div></div></div></div>
+                        <div class="twelve wide column" style="min-height:700px;background: url(/images/sl-university-guy.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56) no-repeat;background-size: 150px;background-position: bottom 10px right; padding-bottom: 250px;">
+                            <div class="ui slucolor inverted segment">
+    <h1 class="ui inverted header">
+        <i class="checkmark box icon"></i>
+        <div class="content">
+            Test results
+            <div class="sub header">6 days ago — March 15, 2018 17:47</div>
+        </div>
+    </h1>
+</div>
+                                                                                    <div class="ui grid">
+    <div class="column">
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#d2322d;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">5.5</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">5.6</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">7.0</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">7.1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            1. PHP &gt; Arrays
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Single choice</span>
+        </div>
+        <h2>Array functions</h2>
+        <p>What is the output of the following code?</p>
+<pre><code class="language-php">&lt;?php
+$myArray = array();
+
+array_unshift($myArray, 10, 20);
+
+echo $myArray[0];
+?&gt;</code></pre>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#d2322d;">
+                                            <i class="remove icon"></i>Wrong
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><p>30</p></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><p>An error</p></li>
+                                            <li><p>20</p></li>
+                                            <li><p>30</p></li>
+                                            <li><p>200</p></li>
+                                            <li><p>10</p></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <p>php.net/array</p>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>51 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/jpauli">
+                <img alt="e255bb4b-0b5a-440a-b95f-554a389ef5bb" src="https://connect.sensiolabs.com/api/images/e255bb4b-0b5a-440a-b95f-554a389ef5bb.png?format=100x100" class="avatar" /> julien pauli
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#47a447;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">5.5</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">5.6</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">7.0</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">7.1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            2. PHP &gt; PHP Basics
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Single choice</span>
+        </div>
+        <h2>Function</h2>
+        <p>Which native function can be used to get the HTML content of Google.com's homepage?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#47a447;">
+                                            <i class="check icon"></i>Correct
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><p><code>fopen()</code></p></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><p><code>fopen()</code></p></li>
+                                            <li><p>This is not possible.</p></li>
+                                            <li><p><code>url_open()</code></p></li>
+                                            <li><p><code>get_web_adress()</code></p></li>
+                                            <li><p><code>http_build_query()</code></p></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <ul>
+<li><a href="http://php.net/manual/en/function.fopen.php">http://php.net/manual/en/function.fopen.php</a></li>
+<li><a href="http://php.net/manual/en/function.http-build-query.php">http://php.net/manual/en/function.http-build-query.php</a></li>
+</ul>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>26 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/jeremyfreeagent">
+                <img alt="278a2fa8-64b4-4ecf-823a-f17827f0d46c" src="https://connect.sensiolabs.com/api/images/278a2fa8-64b4-4ecf-823a-f17827f0d46c.png?format=100x100" class="avatar" /> jeremyFreeAgent
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#d2322d;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.3</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.4</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.5</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.6</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.7</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.8</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.0</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            3. Symfony &gt; Components &gt; Routing
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Single choice</span>
+        </div>
+        <h2>Loading type</h2>
+        <p>Which type of loader is not supported by Symfony?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#d2322d;">
+                                            <i class="remove icon"></i>Wrong
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><p>Closure</p></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><p>YML</p></li>
+                                            <li><p>INI</p></li>
+                                            <li><p>PHP</p></li>
+                                            <li><p>Closure</p></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <p><a href="https://github.com/symfony/symfony/tree/3.0/src/Symfony/Component/Routing/Loader">https://github.com/symfony/symfony/tree/3.0/src/Symfony/Component/Routing/Loader</a></p>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>12 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/saro0h">
+                <img alt="36221b12-f362-4dca-8724-4da82ef2ba49" src="https://connect.sensiolabs.com/api/images/36221b12-f362-4dca-8724-4da82ef2ba49.png?format=100x100" class="avatar" /> Sarah Khalil
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#47a447;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.3</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.4</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.5</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.6</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.7</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.8</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.0</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            4. Symfony &gt; Fullstack &gt; Standard Edition
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Single choice</span>
+        </div>
+        <h2>Functional test</h2>
+        <p>What is the class to extends in a Symfony functional test class?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#47a447;">
+                                            <i class="check icon"></i>Correct
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><p><code>Symfony\Bundle\FrameworkBundle\Test\WebTestCase</code></p></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><p><code>Symfony\Bundle\FrameworkBundle\Test\WebTestCase</code></p></li>
+                                            <li><p><code>Symfony\Bundle\FrameworkBundle\Test\FunctionalTestCase</code></p></li>
+                                            <li><p><code>Symfony\Component\Test\WebTestCase</code></p></li>
+                                            <li><p><code>Symfony\Component\Test\FunctionalTestCase</code></p></li>
+                                            <li><p><code>Symfony\Bundle\FrameworkBundle\Test\Functional\WebTestCase</code></p></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <ul>
+<li><a href="http://symfony.com/doc/current/book/testing.html#your-first-functional-test">http://symfony.com/doc/current/book/testing.html#your-first-functional-test</a></li>
+</ul>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>12 minutes 9 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/jeremyfreeagent">
+                <img alt="278a2fa8-64b4-4ecf-823a-f17827f0d46c" src="https://connect.sensiolabs.com/api/images/278a2fa8-64b4-4ecf-823a-f17827f0d46c.png?format=100x100" class="avatar" /> jeremyFreeAgent
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#47a447;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.3</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.4</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.5</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.6</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.7</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.8</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.0</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            5. Symfony &gt; Fullstack &gt; Standard Edition
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Single choice</span>
+        </div>
+        <h2>Profile</h2>
+        <p>What kind of information is it possible to get from the <code>$profile</code>variable?</p>
+<pre><code class="language-php">$client = static::createClient();
+$crawler = $client-&gt;request('GET', '/profiler');
+$profile = $client-&gt;getProfile();</code></pre>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#47a447;">
+                                            <i class="check icon"></i>Correct
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><p>The profiler to get the time took to perform the request for instance.</p></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><p>The profiler to get the time took to perform the request for instance.</p></li>
+                                            <li><p>Get the Blackfire profile of the request.</p></li>
+                                            <li><p>None.</p></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <p>-</p>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>18 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/saro0h">
+                <img alt="36221b12-f362-4dca-8724-4da82ef2ba49" src="https://connect.sensiolabs.com/api/images/36221b12-f362-4dca-8724-4da82ef2ba49.png?format=100x100" class="avatar" /> Sarah Khalil
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#d2322d;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.7</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.8</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.0</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            6. Symfony &gt; Components &gt; Debug
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Multiple choices</span>
+        </div>
+        <h2>The ExceptionHandler</h2>
+        <p>Which of the following sentences are correct about the <code>Symfony\Component\Debug\ExceptionHandler</code> class ?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#d2322d;">
+                                            <i class="remove icon"></i>Wrong
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><p>The <code>ExceptionHandler</code> class is mainly used during Kernel boot, where nothing is yet available, the Response content is always HTML.</p></li>
+                                    <li><p><code>ExceptionHandler</code> is mostly useful in debug mode to replace the default PHP/XDebug output with something prettier and more useful.</p></li>
+                                    <li><p>The <code>ExceptionHandler</code> class catches PHP errors and converts them to exceptions.</p></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><p>The <code>ExceptionHandler</code> class catches PHP errors and converts them to exceptions.</p></li>
+                                            <li><p><code>ExceptionHandler</code> converts an exception to a Response object.</p></li>
+                                            <li><p><code>ExceptionHandler</code> converts a Response object to an exception.</p></li>
+                                            <li><p><code>ExceptionHandler</code> is mostly useful in debug mode to replace the default PHP/XDebug output with something prettier and more useful.</p></li>
+                                            <li><p>The <code>ExceptionHandler</code> class is mainly used during Kernel boot, where nothing is yet available, the Response content is always HTML.</p></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <p><a href="http://symfony.com/doc/current/components/debug.html#enabling-the-exception-handler">http://symfony.com/doc/current/components/debug.html#enabling-the-exception-handler</a>
+<a href="http://api.symfony.com/master/Symfony/Component/Debug/ExceptionHandler.html">http://api.symfony.com/master/Symfony/Component/Debug/ExceptionHandler.html</a></p>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>39 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/toma">
+                <img alt="2b61df24-d61c-4625-ac16-0bfd7f2cee5a" src="https://connect.sensiolabs.com/api/images/2b61df24-d61c-4625-ac16-0bfd7f2cee5a.png?format=100x100" class="avatar" /> Thomas Bisignani
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#d2322d;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.4</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.5</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.6</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.7</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.8</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.0</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            7. Symfony &gt; Components &gt; HttpKernel
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Single choice</span>
+        </div>
+        <h2>KernelEvents</h2>
+        <p>What is the argument passed to listeners of <code>kernel.response</code>?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#d2322d;">
+                                            <i class="remove icon"></i>Wrong
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><p><code>PostResponseEvent</code></p></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><p><code>FilterResponseEvent</code></p></li>
+                                            <li><p><code>ResponseEvent</code></p></li>
+                                            <li><p><code>PostResponseEvent</code></p></li>
+                                            <li><p><code>GetResponseEvent</code></p></li>
+                                            <li><p><code>FinishRequestEvent</code></p></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <ul>
+<li><a href="http://symfony.com/doc/current/components/http_kernel.html#creating-an-event-listener">http://symfony.com/doc/current/components/http_kernel.html#creating-an-event-listener</a></li>
+</ul>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>5 minutes 50 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/jeremyfreeagent">
+                <img alt="278a2fa8-64b4-4ecf-823a-f17827f0d46c" src="https://connect.sensiolabs.com/api/images/278a2fa8-64b4-4ecf-823a-f17827f0d46c.png?format=100x100" class="avatar" /> jeremyFreeAgent
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#d2322d;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.7</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.8</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.0</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            8. Symfony &gt; Fullstack &gt; Standard Edition
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Multiple choices</span>
+        </div>
+        <h2>Core Cache Warmers</h2>
+        <p>Which of the followings are core cache warmers?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#d2322d;">
+                                            <i class="remove icon"></i>Wrong
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><p><code>LogCacheWarmer</code></p></li>
+                                    <li><p><code>RouterCacheWarmer</code></p></li>
+                                    <li><p><code>LogsCacheWarmer</code></p></li>
+                                    <li><p><code>TemplateCacheWarmer</code></p></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><p><code>RouterCacheWarmer</code></p></li>
+                                            <li><p><code>LogCacheWarmer</code></p></li>
+                                            <li><p><code>LogsCacheWarmer</code></p></li>
+                                            <li><p><code>TemplateCacheCacheWarmer</code></p></li>
+                                            <li><p><code>RoutingCacheWarmer</code></p></li>
+                                            <li><p><code>TemplateCacheWarmer</code></p></li>
+                                            <li><p><code>TemplatePathsCacheWarmer</code></p></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <ul>
+<li><a href="http://symfony.com/doc/current/reference/dic_tags.html#core-cache-warmers">http://symfony.com/doc/current/reference/dic_tags.html#core-cache-warmers</a></li>
+</ul>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>55 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/jeremyfreeagent">
+                <img alt="278a2fa8-64b4-4ecf-823a-f17827f0d46c" src="https://connect.sensiolabs.com/api/images/278a2fa8-64b4-4ecf-823a-f17827f0d46c.png?format=100x100" class="avatar" /> jeremyFreeAgent
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#d2322d;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.7</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.8</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.0</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            9. Symfony &gt; Components &gt; Filesystem
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Single choice</span>
+        </div>
+        <h2>Copy method</h2>
+        <p>What is the correct signature of the <code>Symfony\Component\Filesystem\Filesystem::copy</code> method?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#d2322d;">
+                                            <i class="remove icon"></i>Wrong
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><pre><code class="language-php">public function copy($targetFile, $originFile, $overwriteNewerFiles = false)</code></pre></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><pre><code class="language-php">public function copy($targetFile, $originFile, $overwriteNewerFiles)</code></pre></li>
+                                            <li><pre><code class="language-php">public function copy($originFile, $targetFile, $overwriteNewerFiles = false)</code></pre></li>
+                                            <li><pre><code class="language-php">public function copy($originFile, $targetFile, $overwriteNewerFiles)</code></pre></li>
+                                            <li><pre><code class="language-php">public function copy($targetFile, $originFile, $overwriteNewerFiles = false)</code></pre></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <ul>
+<li><a href="http://symfony.com/doc/current/components/filesystem.html#copy">http://symfony.com/doc/current/components/filesystem.html#copy</a></li>
+<li><a href="http://api.symfony.com/3.1/Symfony/Component/Filesystem/Filesystem.html#method_copy">http://api.symfony.com/3.1/Symfony/Component/Filesystem/Filesystem.html#method_copy</a></li>
+</ul>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>51 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/toma">
+                <img alt="2b61df24-d61c-4625-ac16-0bfd7f2cee5a" src="https://connect.sensiolabs.com/api/images/2b61df24-d61c-4625-ac16-0bfd7f2cee5a.png?format=100x100" class="avatar" /> Thomas Bisignani
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#47a447;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.8</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.0</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            10. Symfony &gt; Components &gt; Dependency Injection
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Single choice</span>
+        </div>
+        <h2>Autowiring</h2>
+        <p>What does <code>autowiring_types</code> stands for ?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#47a447;">
+                                            <i class="check icon"></i>Correct
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><p>To specify which implementation to use by default</p></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><p>To specify which implementation to use by default</p></li>
+                                            <li><p>It doesn't exists</p></li>
+                                            <li><p>To specify if a service is autowireable</p></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <p><a href="http://symfony.com/doc/current/components/dependency_injection/autowiring.html#dealing-with-multiple-implementations-of-the-same-type">http://symfony.com/doc/current/components/dependency_injection/autowiring.html#dealing-with-multiple-implementations-of-the-same-type</a></p>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>17 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/hakkou">
+                <img alt="edb78476-85ee-4d3b-9bbf-702b640dd372" src="https://connect.sensiolabs.com/api/images/edb78476-85ee-4d3b-9bbf-702b640dd372.png?format=100x100" class="avatar" /> Salah MEHARGA
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#d2322d;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.3</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.4</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.5</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.6</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.7</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.8</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.0</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            11. Symfony &gt; Components &gt; HttpFoundation
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Single choice</span>
+        </div>
+        <h2>Accessing Request Data</h2>
+        <p>How to access <code>$_COOKIE</code> data when using a <code>Symfony\Component\HttpFoundation\Request</code> <code>$request</code> object?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#d2322d;">
+                                            <i class="remove icon"></i>Wrong
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><pre><code>$request-&gt;getCookie()</code></pre></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><pre><code>$request-&gt;getCookie()</code></pre></li>
+                                            <li><pre><code>$request-&gt;getCookies()</code></pre></li>
+                                            <li><pre><code>$request-&gt;cookies</code></pre></li>
+                                            <li><pre><code>$request-&gt;getCookieData()</code></pre></li>
+                                            <li><pre><code>$request-&gt;cookie</code></pre></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <ul>
+<li><a href="http://symfony.com/doc/current/components/http_foundation.html#accessing-request-data">http://symfony.com/doc/current/components/http_foundation.html#accessing-request-data</a></li>
+</ul>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>24 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/jeremyfreeagent">
+                <img alt="278a2fa8-64b4-4ecf-823a-f17827f0d46c" src="https://connect.sensiolabs.com/api/images/278a2fa8-64b4-4ecf-823a-f17827f0d46c.png?format=100x100" class="avatar" /> jeremyFreeAgent
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#d2322d;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.3</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.4</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.5</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.6</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.7</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.8</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.0</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            12. Symfony &gt; Components &gt; Form
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Single choice</span>
+        </div>
+        <h2>DateTimeType default options.</h2>
+        <p>What will be rendered when using a <code>Symfony\Component\Form\Extension\Core\Type\DateTimeType</code> form type with all default options ?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#d2322d;">
+                                            <i class="remove icon"></i>Wrong
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><p>One HTML5 datetime input.</p></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><p>Five select inputs.</p></li>
+                                            <li><p>Three select inputs and one text input.</p></li>
+                                            <li><p>One HTML5 datetime input.</p></li>
+                                            <li><p>Two text inputs.</p></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <p><a href="http://symfony.com/doc/current/reference/forms/types/datetime.html">http://symfony.com/doc/current/reference/forms/types/datetime.html</a></p>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>1 minutes 30 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/adrienlucas">
+                <img alt="8332d6be-089e-46ff-9608-981cc0089ba3" src="https://connect.sensiolabs.com/api/images/8332d6be-089e-46ff-9608-981cc0089ba3.png?format=100x100" class="avatar" /> Adrien Lucas
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#47a447;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            13. Twig
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Single choice</span>
+        </div>
+        <h2>Template inheritance error.</h2>
+        <p>Which of the following templates will throw an error <code>A template that extends another one cannot have a body</code>?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#47a447;">
+                                            <i class="check icon"></i>Correct
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><pre><code class="language-twig">{% extends 'base.html.twig' %}
+
+{{ 'f' ~ 'oo' }}</code></pre></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><pre><code class="language-twig">{% extends 'base.html.twig' %}
+
+{{ 'f' ~ 'oo' }}</code></pre></li>
+                                            <li><pre><code class="language-twig">{% extends 'base.html.twig' %}
+
+{% block body 'foo' %}</code></pre></li>
+                                            <li><pre><code class="language-twig">{% extends 'base.html.twig' %}
+
+{% block foo 'foo' %}
+{% block body block('foo') %}</code></pre></li>
+                                            <li><pre><code class="language-twig">{% extends 'base.html.twig' %}
+
+{% block body %}
+    foo
+{% endblock %}</code></pre></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <p><a href="http://twig.sensiolabs.org/doc/tags/extends.html">http://twig.sensiolabs.org/doc/tags/extends.html</a></p>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>32 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/adrienlucas">
+                <img alt="8332d6be-089e-46ff-9608-981cc0089ba3" src="https://connect.sensiolabs.com/api/images/8332d6be-089e-46ff-9608-981cc0089ba3.png?format=100x100" class="avatar" /> Adrien Lucas
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#d2322d;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.0</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            14. Symfony &gt; Fullstack &gt; Standard Edition
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Multiple choices</span>
+        </div>
+        <h2>PHPUnit Bridge</h2>
+        <p>What does The <code>ClockMock</code> class allow to mock ?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#d2322d;">
+                                            <i class="remove icon"></i>Wrong
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><p>time()</p></li>
+                                    <li><p>date()</p></li>
+                                    <li><p>microtime()</p></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><p>date()</p></li>
+                                            <li><p>usleep()</p></li>
+                                            <li><p>time()</p></li>
+                                            <li><p>microtime()</p></li>
+                                            <li><p>sleep()</p></li>
+                                            <li><p>it doesn't exists</p></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <ul>
+<li><a href="http://api.symfony.com/3.1/Symfony/Bridge/PhpUnit/ClockMock.html">http://api.symfony.com/3.1/Symfony/Bridge/PhpUnit/ClockMock.html</a></li>
+<li><a href="http://symfony.com/doc/current/components/phpunit_bridge.html#clock-mocking">http://symfony.com/doc/current/components/phpunit_bridge.html#clock-mocking</a></li>
+</ul>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>32 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/hakkou">
+                <img alt="edb78476-85ee-4d3b-9bbf-702b640dd372" src="https://connect.sensiolabs.com/api/images/edb78476-85ee-4d3b-9bbf-702b640dd372.png?format=100x100" class="avatar" /> Salah MEHARGA
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#47a447;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            15. Twig
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Single choice</span>
+        </div>
+        <h2>Strict Variables Mode</h2>
+        <p>Consider the following Twig code snippet:</p>
+<pre><code class="language-twig">The {{ color }} car!</code></pre>
+<p>What will be the result of evaluating this template when passing it the <code>blue</code> for the <code>color</code> variable value and when the <code>strict_variables</code> global setting is off?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#47a447;">
+                                            <i class="check icon"></i>Correct
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><p>The template will be succesfully evaluated and the string <code>The blue car!</code> will be displayed in the web browser.</p></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><p>The template will be succesfully evaluated and the string <code>The blue car!</code> will be displayed in the web browser.</p></li>
+                                            <li><p>Twig will raise a <code>Twig_Error_Runtime</code> exception preventing the template from being evaluated.</p></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <ul>
+<li><a href="https://github.com/twigphp/Twig/blob/1.x/lib/Twig/Extension/Core.php#L1447-L1479">https://github.com/twigphp/Twig/blob/1.x/lib/Twig/Extension/Core.php#L1447-L1479</a></li>
+<li><a href="https://twig.symfony.com/doc/1.x/templates.html#variables">https://twig.symfony.com/doc/1.x/templates.html#variables</a></li>
+<li><a href="https://twig.symfony.com/doc/2.x/templates.html#variables">https://twig.symfony.com/doc/2.x/templates.html#variables</a></li>
+</ul>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>11 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/hhamon">
+                <img alt="e15cbda8-edd5-4bf8-a65d-786c9f3b0579" src="https://connect.sensiolabs.com/api/images/e15cbda8-edd5-4bf8-a65d-786c9f3b0579.png?format=100x100" class="avatar" /> Hugo Hamon
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#47a447;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.3</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.4</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.5</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.6</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.7</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.8</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.0</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            16. Symfony &gt; Fullstack &gt; FrameworkBundle
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Single choice</span>
+        </div>
+        <h2>FrameworkBundle:Template:template</h2>
+        <p>What is the main purpose of the built-in <code>FrameworkBundle:Template:template</code> controller?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#47a447;">
+                                            <i class="check icon"></i>Correct
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><p>Render templates that do not require a controller, such as static pages.</p></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><p>Render custom error templates.</p></li>
+                                            <li><p>Render templates that do not require a controller, such as static pages.</p></li>
+                                            <li><p>Provide information about the template being rendered for the profiler.</p></li>
+                                            <li><p>Extract translation keys/strings from templates.</p></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <ul>
+<li><a href="http://symfony.com/doc/current/cookbook/templating/render_without_controller.html">http://symfony.com/doc/current/cookbook/templating/render_without_controller.html</a></li>
+</ul>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>53 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/saro0h">
+                <img alt="36221b12-f362-4dca-8724-4da82ef2ba49" src="https://connect.sensiolabs.com/api/images/36221b12-f362-4dca-8724-4da82ef2ba49.png?format=100x100" class="avatar" /> Sarah Khalil
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#d2322d;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.3</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.4</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.5</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.6</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.7</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">2.8</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.0</span>
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">3.1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            17. Symfony &gt; Components &gt; Console
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Multiple choices</span>
+        </div>
+        <h2>Verbosity</h2>
+        <p>What are the console verbosity levels?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#d2322d;">
+                                            <i class="remove icon"></i>Wrong
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><pre><code class="language-php">OutputInterface::VERBOSITY_VERBOSE</code></pre></li>
+                                    <li><pre><code class="language-php">OutputInterface::VERBOSITY_NORMAL</code></pre></li>
+                                    <li><pre><code class="language-php">OutputInterface::VERBOSITY_VERY_VERBOSE</code></pre></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><pre><code class="language-php">OutputInterface::VERBOSITY_VERBOSE</code></pre></li>
+                                            <li><pre><code class="language-php">OutputInterface::VERBOSITY_NONE</code></pre></li>
+                                            <li><pre><code class="language-php">OutputInterface::VERBOSITY_VERY_VERY_VERBOSE</code></pre></li>
+                                            <li><pre><code class="language-php">OutputInterface::VERBOSITY_NORMAL</code></pre></li>
+                                            <li><pre><code class="language-php">OutputInterface::VERBOSITY_QUIET</code></pre></li>
+                                            <li><pre><code class="language-php">OutputInterface::VERBOSITY_DEBUG</code></pre></li>
+                                            <li><pre><code class="language-php">OutputInterface::VERBOSITY_VERY_VERBOSE</code></pre></li>
+                                            <li><pre><code class="language-php">OutputInterface::VERBOSITY_NO_DEBUG</code></pre></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <ul>
+<li><a href="http://symfony.com/doc/current/console/verbosity.html">http://symfony.com/doc/current/console/verbosity.html</a></li>
+</ul>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>42 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/jeremyfreeagent">
+                <img alt="278a2fa8-64b4-4ecf-823a-f17827f0d46c" src="https://connect.sensiolabs.com/api/images/278a2fa8-64b4-4ecf-823a-f17827f0d46c.png?format=100x100" class="avatar" /> jeremyFreeAgent
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#d2322d;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">1.1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            18. HTTP
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Multiple choices</span>
+        </div>
+        <h2>Response codes</h2>
+        <p>What are the http codes status involved by the caching models?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#d2322d;">
+                                            <i class="remove icon"></i>Wrong
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><p>204</p></li>
+                                    <li><p>200</p></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><p>200</p></li>
+                                            <li><p>204</p></li>
+                                            <li><p>304</p></li>
+                                            <li><p>300</p></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <ul>
+<li>200: <a href="https://tools.ietf.org/html/rfc2616#section-10.2.1">https://tools.ietf.org/html/rfc2616#section-10.2.1</a></li>
+<li>204: <a href="https://tools.ietf.org/html/rfc2616#section-10.2.5">https://tools.ietf.org/html/rfc2616#section-10.2.5</a></li>
+<li>300: <a href="https://tools.ietf.org/html/rfc2616#section-10.3.1">https://tools.ietf.org/html/rfc2616#section-10.3.1</a></li>
+<li>304: <a href="https://tools.ietf.org/html/rfc2616#section-10.3.5">https://tools.ietf.org/html/rfc2616#section-10.3.5</a></li>
+</ul>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>59 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/saro0h">
+                <img alt="36221b12-f362-4dca-8724-4da82ef2ba49" src="https://connect.sensiolabs.com/api/images/36221b12-f362-4dca-8724-4da82ef2ba49.png?format=100x100" class="avatar" /> Sarah Khalil
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#47a447;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">1.1</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            19. HTTP
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Multiple choices</span>
+        </div>
+        <h2>Idempotent HTTP verbs.</h2>
+        <p>Which HTTP verbs are idempotent ?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#47a447;">
+                                            <i class="check icon"></i>Correct
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><p><code>DELETE</code></p></li>
+                                    <li><p><code>PUT</code></p></li>
+                                    <li><p><code>TRACE</code></p></li>
+                                    <li><p><code>HEAD</code></p></li>
+                                    <li><p><code>GET</code></p></li>
+                                    <li><p><code>OPTIONS</code></p></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><p><code>DELETE</code></p></li>
+                                            <li><p><code>GET</code></p></li>
+                                            <li><p><code>OPTIONS</code></p></li>
+                                            <li><p><code>CONNECT</code></p></li>
+                                            <li><p><code>POST</code></p></li>
+                                            <li><p><code>PATCH</code></p></li>
+                                            <li><p><code>PUT</code></p></li>
+                                            <li><p><code>TRACE</code></p></li>
+                                            <li><p><code>HEAD</code></p></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <p><a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Idempotent_methods_and_web_applications">https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol#Idempotent_methods_and_web_applications</a></p>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>3 minutes 44 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/adrienlucas">
+                <img alt="8332d6be-089e-46ff-9608-981cc0089ba3" src="https://connect.sensiolabs.com/api/images/8332d6be-089e-46ff-9608-981cc0089ba3.png?format=100x100" class="avatar" /> Adrien Lucas
+            </a>
+        </span>
+            </div>
+</div>
+
+                    <div class="ui card" style="width:100%">
+    <div class="content" style="background-color:#47a447;color:#FFF;">
+                    <div class="right floated">
+                                    <span class="ui label" style="background-color:#FFF;color:#000;">5</span>
+                            </div>
+                <div class="header" style="color:#FFF;">
+                            20. PHPUnit
+                    </div>
+    </div>
+    <div class="content">
+        <div class="right floated">
+            <span class="ui label">Single choice</span>
+        </div>
+        <h2>disallowMockingUnknownTypes</h2>
+        <p>What is the goal of calling <code>disallowMockingUnknownTypes()</code> when creating a stub or mock?</p>
+        <div style="margin-top:40px">
+            <h3 class="ui horizontal divider header">
+                <span style="color:#47a447;">
+                                            <i class="check icon"></i>Correct
+                                    </span>
+            </h3>
+            <ul>
+                                    <li><p>To throw an Exception if the class or the interface does not exist.</p></li>
+                            </ul>
+        </div>
+                    <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header">The choices were</h3>
+                <ul>
+                                            <li><p>To throw an Exception if the class is not a native PHP class.</p></li>
+                                            <li><p>To throw an Exception if the interface does not exist.</p></li>
+                                            <li><p>To throw an Exception if the class does not exist.</p></li>
+                                            <li><p>To throw an Exception if the class or the interface does not exist.</p></li>
+                                    </ul>
+            </div>
+                            <div style="margin-top:40px">
+                <h3 class="ui horizontal divider header"><i class="idea icon"></i>Help</h3>
+                <ul>
+<li><a href="https://github.com/sebastianbergmann/phpunit-mock-objects/blob/4.0.4/src/Generator.php#L103">https://github.com/sebastianbergmann/phpunit-mock-objects/blob/4.0.4/src/Generator.php#L103</a></li>
+<li><a href="https://github.com/sebastianbergmann/phpunit-mock-objects/blob/4.0.4/src/Generator.php#L103-L128">https://github.com/sebastianbergmann/phpunit-mock-objects/blob/4.0.4/src/Generator.php#L103-L128</a></li>
+</ul>
+            </div>
+            </div>
+    <div class="extra content">
+        <span class="left floated">
+            <small>finished in <strong>8 seconds</strong></small>
+        </span>
+        <span class="right floated">
+            <a href="https://connect.sensiolabs.com/profile/jeremyfreeagent">
+                <img alt="278a2fa8-64b4-4ecf-823a-f17827f0d46c" src="https://connect.sensiolabs.com/api/images/278a2fa8-64b4-4ecf-823a-f17827f0d46c.png?format=100x100" class="avatar" /> jeremyFreeAgent
+            </a>
+        </span>
+            </div>
+</div>
+
+            </div>
+</div>
+                                    </div>
+    </div>
+    </div>
+<div class="ui cookie bottom fixed nag" style="margin-top: 36px;background-color:#47b0c7;">
+    <span class="title">
+        We use cookies to ensure you get the best experience on our website.
+    </span>
+    <span class="ui close inverted white button">Ok!</span>
+</div>
+<footer class="ui basic inverted segment" style="margin:0;">
+<div class="ui container" style="padding:2em 0;">
+    <div class="ui four column stackable grid">
+        <div class="eight wide column">
+            <div>
+                                    <i class="fa fa-code" aria-hidden="true"></i> with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a target="_blank" href="http://sensiolabs.com" title="SensioLabs"><img src="/images/sensiolabs-logo.png?sluv=ab482e6466377cc56bb2156628b06836a19c3d56" alt="SensioLabs" width="90" style="width:90px;vertical-align: -2px;"></a>
+                            </div>
+            <div style="margin-top:1em;">
+                <small>deployed on <a href="https://sensio.cloud/"><img target="_blank" title="SensioCloud" src="/images/sensiocloud-logo.svg?sluv=ab482e6466377cc56bb2156628b06836a19c3d56" width="90" style="width:90px;vertical-align: -2px;" /></a></small>
+            </div>
+        </div>
+        <div class="eight wide column">
+            <div class="ui secondary inverted menu" style="background:transparent;border-width: 0;padding-bottom:1em;margin-top: 0.5em;">
+                <div class="ui container">
+                    <div class="right menu desktop">
+                        <!-- <a href="/about" class="item">About</a> -->
+                        <a href="/contact-us" class="item">Contact us</a>
+                        <a href="/privacy" class="item">Privacy</a>
+                        <a href="/terms-and-conditions" class="item">Terms and Conditions</a>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:right">
+                <small>
+                    Copyright © 2018 SensioLabs. All rights reserved.<br/>
+                    Symfony™ is a trademark of Fabien Potencier.
+                </small>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="/js/jquery.js?sluv=ab482e6466377cc56bb2156628b06836a19c3d56"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="/js/main.js?sluv=ab482e6466377cc56bb2156628b06836a19c3d56"></script>
+
+<script type="text/javascript" src="//connect.sensiolabs.com/sln.js"></script>
+<script type="text/javascript">
+$(function() {
+          SLNBar.isAuthenticated = true;
+       SLNBar.uuid = '6d842f89-70b4-4c50-9a14-16db92ae07f5';
+       SLNBar.fullName = 'Amal Brahim';
+       SLNBar.actions = {
+           '0': { 'url': SLNBar.urlConnectHomepage, 'label': "Edit your profile" }
+       };
+       SLNBar.separatedActions = {
+           '0': { 'url': '/logout', 'label' : "Logout" }
+       };
+          $('#sln').html(SLNBar.render());
+       SLNBar.bindEvents();
+   });
+</script>
+<script src="/js/prism.js?sluv=ab482e6466377cc56bb2156628b06836a19c3d56"></script>
+
+<script>
+$(function () {
+    $('.ui.sidebar')
+        .sidebar('toggle')
+    ;
+
+    $('.ui.checkbox')
+        .checkbox()
+    ;
+
+    $('.ui .progress').progress({
+        duration : 200,
+        showActivity: false
+    });
+
+    $('.ui.dropdown').dropdown({
+        forceSelection: false,
+    });
+
+    $('.ui.accordion').accordion();
+
+    $('.ui.notinteractive.rating').rating({
+        interactive: false
+    });
+    $('.ui.vote.rating').rating('setting', 'onRate', function(value) {
+        document.getElementById($(this).data('field')).value = value;
+    });
+
+    $('.ui.calendarpicker').calendar();
+
+    $('.ui.popup-trigger-inline').popup({
+        inline: true,
+    });
+
+    $('.cookie.nag').nag({
+        key: 'accepts-cookies',
+        value: true,
+        selector : {
+            close : '.close.button'
+        },
+    });
+})
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79731882-1', 'university.sensiolabs.com');
+  ga('send', 'pageview');
+    ga('set', 'userId', '6d842f89-70b4-4c50-9a14-16db92ae07f5');
+  </script>
+</body>
+</html>
