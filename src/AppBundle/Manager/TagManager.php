@@ -68,11 +68,21 @@ class TagManager extends BaseManager
         foreach ($tags as $tag) {
             $articles = $this->em->getRepository('AppBundle:Article')->getArticleByTag($tag);
             if (!empty($articles)) {
-                $articleTags[$tag->getTitle()] = $articles;
+                $articleTags[$this->getLightTagTitle($tag->getTitle())] = $articles;
             }
         }
-        
+
         return $articleTags;
+    }
+
+    public function getLightTagTitle($title)
+    {
+        $title = str_replace('Symfony', 'sf', $title);
+        $title = str_replace('Components', 'cmpt', $title);
+        $title = str_replace('Fullstack', 'fs', $title);
+        $title = str_replace('Object Oriented Programming', 'OOP', $title);
+
+        return $title;
     }
     
 }

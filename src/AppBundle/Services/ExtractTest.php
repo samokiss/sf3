@@ -59,8 +59,6 @@ class ExtractTest
 
         }
 
-//        die(dump($tests));
-
         $this->saveTestQuestion($tests);
     }
 
@@ -74,6 +72,9 @@ class ExtractTest
         $test['type'] = end($test['version']);
         array_pop($test['version']);
         $test['title'] = array_shift($test['title']);
+        if (isset($test['question'][1]) && substr($test['question'][1], -1) == "?") {
+            $test['question2'] = $test['question'][1];
+        }
         $test['question'] = array_shift($test['question']);
         $test['answer'] = array_unique($test['answer']);
         array_pop($test['doc']);
@@ -94,7 +95,6 @@ class ExtractTest
                 unset($test['answer'][$key]);
             }
         }
-
         return $this->arrayToHtml($test);
     }
 
@@ -119,6 +119,9 @@ class ExtractTest
         if ($test['code'] !== null && strpos($test['question'], $test['code']) === false) {
             $test['code'] = htmlentities($test['code']);
             $html .= '<p><pre><code>' . $test['code'] . '</code></pre></p>';
+        }
+        if(isset($test['question2'])) {
+            $html .= '<p><strong>' . $test['question2'] . '</strong></p>';
         }
         $html .= '<ul>' . implode('', $test['answer']) . '</ul>';
         if (is_array($test['doc'])) {
