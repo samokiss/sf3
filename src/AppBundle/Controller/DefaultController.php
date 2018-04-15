@@ -80,8 +80,9 @@ class DefaultController extends Controller
     public function taggedArticleAction(Tag $tag = null, Request $request)
     {
 
+
         if (is_string($request->get('tagTitle'))) {
-            $tagTitle = $request->get('tagTitle');
+            $tagTitle = $this->get('tag.manager')->getFullTagTitle($request->get('tagTitle'));
             $tag = $this->getDoctrine()->getRepository('AppBundle:Tag')->findOneByTitle($tagTitle);
         }
 

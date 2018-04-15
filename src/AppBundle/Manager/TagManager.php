@@ -84,5 +84,15 @@ class TagManager extends BaseManager
 
         return $title;
     }
+
+    public function getFullTagTitle($title)
+    {
+        $title = str_replace('sf', 'Symfony', $title);
+        $title = str_replace('cmpt', 'Components', $title);
+        $title = str_replace('fs', 'Fullstack', $title);
+        $title = str_replace('OOP', 'Object Oriented Programming', $title);
+
+        return $title;
+    }
     
 }

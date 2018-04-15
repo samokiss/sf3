@@ -51,3 +51,12 @@ header, main, footer {
 .large-padding-top {
     padding-top: 120px;
 }
+
+.logout{
+    position: fixed;
+    right: 23px;
+    top: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 997;
+}
